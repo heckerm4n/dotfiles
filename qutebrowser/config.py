@@ -137,7 +137,7 @@ config.set('content.local_content_can_access_file_urls', False, 'file:///home/us
 config.bind('M', 'hint links spawn mpv {hint-url}')
 
 
-config.url.searchengines = {
+c.url.searchengines = {
     'DEFAULT':  'https://google.com/search?hl=en&q={}',
     '!a':       'https://www.amazon.in/s?k={}',
     '!d':       'https://duckduckgo.com/?ia=web&q={}',
@@ -158,19 +158,3 @@ config.url.searchengines = {
     '!yt':      'https://www.youtube.com/results?search_query={}'
 }
 
-config.fonts.monospace = "Fira Mono"
-config.fonts.completion.entry = "10pt Fira Mono"
-config.fonts.completion.category = "bold 10pt Fira Mono"
-config.fonts.debug_console = "10pt Fira Mono"
-config.fonts.downloads = "10pt Fira Mono"
-config.fonts.hints = "bold 13px Fira Mono"
-config.fonts.keyhint = "10pt Fira Mono"
-config.fonts.messages.error = "10pt Fira Mono"
-config.fonts.messages.info = "10pt Fira Mono"
-config.fonts.messages.warning = "10pt Fira Mono"
-config.fonts.prompts = "10pt Fira Sans"
-config.fonts.statusbar = "10pt Fira Mono"
-config.fonts.tabs = "10pt Fira Mono"
-config.fonts.web.family.fixed = "Fira Mono"
-config.fonts.web.family.sans_serif = "Fira Sans"
-config.fonts.web.family.serif = "DejaVu Serif"
