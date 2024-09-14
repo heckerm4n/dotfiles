@@ -16,7 +16,7 @@ echo -e "${YELLOW}=> INSTALLING NVIDIA DRIVERS${NC}"
 sudo pacman --noconfirm -S nvidia nvidia-settings nvidia-utils
 
 echo -e "${YELLOW}=> INSTALLING IMPORTANT PROGRAMS${NC}"
-sudo pacman --noconfirm -S git vim tmux fish neovim kitty neofetch bashtop exa bat fd fzf lxappearance nitrogen dunst firefox firefox-developer-edition discord xcolor thunar gvfs rofi ly keyd starship xclip tldr qutebrowser make clang gcc unzip zip pdfarranger xournalpp
+sudo pacman --noconfirm -S git vim tmux fish neovim kitty neofetch bashtop exa bat fd fzf lxappearance nitrogen dunst firefox firefox-developer-edition discord xcolor thunar gvfs rofi ly keyd starship xclip tldr qutebrowser make clang gcc unzip zip pdfarranger xournalpp yt-dlp nodejs npm dmenu
 
 # Check if paru is installed, if not install it
 if ! command -v paru &> /dev/null; then
