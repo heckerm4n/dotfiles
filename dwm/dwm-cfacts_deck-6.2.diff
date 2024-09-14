@@ -1,0 +1,70 @@
+diff -up a/config.def.h b/config.def.h
+--- a/config.def.h	2020-04-17 13:37:50.926942626 +0200
++++ b/config.def.h	2020-04-25 15:55:19.651489583 +0200
+@@ -41,6 +41,7 @@ static const Layout layouts[] = {
+ 	{ "[]=",      tile },    /* first entry is default */
+ 	{ "><>",      NULL },    /* no layout function means floating behavior */
+ 	{ "[M]",      monocle },
++	{ "[D]",      deck },
+ };
+ 
+ /* key definitions */
+@@ -76,6 +77,7 @@ static Key keys[] = {
+ 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
+ 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
+ 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
++	{ MODKEY,                       XK_c,      setlayout,      {.v = &layouts[3]} },
+ 	{ MODKEY,                       XK_space,  setlayout,      {0} },
+ 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
+ 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
+Only in b: config.def.h.orig
+Only in b: config.def.h.rej
+diff -up a/dwm.c b/dwm.c
+--- a/dwm.c	2020-04-17 13:37:50.926942626 +0200
++++ b/dwm.c	2020-04-25 15:58:19.435210980 +0200
+@@ -157,6 +157,7 @@ static void configure(Client *c);
+ static void configurenotify(XEvent *e);
+ static void configurerequest(XEvent *e);
+ static Monitor *createmon(void);
++static void deck(Monitor *m);
+ static void destroynotify(XEvent *e);
+ static void detach(Client *c);
+ static void detachstack(Client *c);
+@@ -655,6 +656,37 @@ destroynotify(XEvent *e)
+ }
+ 
+ void
++deck(Monitor *m) {
++	unsigned int i, n, h, mw, my;
++	float mfacts = 0;
++	Client *c;
++
++	for (n = 0, c = nexttiled(m->clients); c; c = nexttiled(c->next), n++) {
++		if (n < m->nmaster)
++			mfacts += c->cfact;
++	}
++	if(n == 0)
++		return;
++
++	if(n > m->nmaster) {
++		mw = m->nmaster ? m->ww * m->mfact : 0;
++		snprintf(m->ltsymbol, sizeof m->ltsymbol, "[%d]", n - m->nmaster);
++	}
++	else
++		mw = m->ww;
++	for(i = my = 0, c = nexttiled(m->clients); c; c = nexttiled(c->next), i++)
++		if(i < m->nmaster) {
++			h = (m->wh - my) * (c->cfact / mfacts);
++			resize(c, m->wx, m->wy + my, mw - (2*c->bw), h - (2*c->bw), False);
++			if (my + HEIGHT(c) < m->wh)
++				my += HEIGHT(c);
++			mfacts -= c->cfact;
++		}
++		else
++			resize(c, m->wx + mw, m->wy, m->ww - mw - (2*c->bw), m->wh - (2*c->bw), False);
++}
++
++void
+ detach(Client *c)
+ {
+ 	Client **tc;

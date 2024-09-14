@@ -1,0 +1,27 @@
+# ignore ALL files in ANY directory listed bellow
+discord/
+chromium/
+pulse/
+bashtop/
+Code\ -\ OSS/
+libreoffice/
+light/
+xournalpp/
+yay/
+xfce4/
+Thunar/
+systemd/
+styluslabs/
+procps/
+pdfarranger/
+nitrogen/
+neofetch/
+mpv/
+htop/
+go/
+flameshot/
+Electron/
+dwmback/
+cool_retro_terminal/
+BetterDiscord\ Installer/
+

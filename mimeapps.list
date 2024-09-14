@@ -1,0 +1,8 @@
+[Default Applications]
+image/jpeg=firefox.desktop
+application/pdf=firefox.desktop
+
+[Added Associations]
+image/jpeg=kitty.desktop;firefox.desktop;
+application/pdf=firefox.desktop;
+image/png=firefox.desktop;
