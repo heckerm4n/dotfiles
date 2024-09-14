@@ -49,6 +49,15 @@ When using GRUB as your bootloader, you might find that it doesn’t show Window
 
 Steps to make Windows boot options visible:
 
-- **Mount the EFI partition of Arch:** This allows you to access the bootloader files for different operating systems.
+- **Mount the EFI partition:** Mount the partition that contains the efi of Windows to any directory of arch. This allows you to access the bootloader files for different operating systems.
 - **Update GRUB configuration:** Run grub-mkconfig to regenerate the GRUB configuration file and detect all installed operating systems.
 With these adjustments, GRUB should properly recognize and list Windows and other operating systems alongside Arch Linux.
+
+
+## to setwallpaper of betterlockscreen
+
+**run the command:** 
+``` bash
+betterlockscreen -u ~/.config/wallpaper/sparkle.jpg
+```
+the original command is `betterlockscreen -u /path_to_your_wallpaper`
