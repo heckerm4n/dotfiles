@@ -1,0 +1,927 @@
+2024-09-18 00:10:59.816 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-18 00:10:59.936 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-18 00:10:59.997 [info] Creating merkle client.
+2024-09-18 00:10:59.997 [info] Done creating merkle client.
+2024-09-18 00:10:59.997 [info] Doing a startup handshake.
+2024-09-18 00:11:00.007 [info] Finished initializing merkle tree in 11.172995999455452 ms.
+2024-09-18 00:11:00.007 [info] Doing the initial handshake with hash: 18ea125f1fe4498c2c337842241d0887faf767b0275986f36c7d9f5faca7c8bc
+2024-09-18 00:11:00.009 [info] Handshake start
+2024-09-18 00:11:00.708 [info] Handshake timing: 700.8014170005918
+2024-09-18 00:11:00.709 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"5a47af60-7d53-42e3-aa76-11b227225121"}
+2024-09-18 00:11:00.709 [info] Starting fast remote sync.
+2024-09-18 00:11:00.709 [info] Total num embeddable files: 18
+2024-09-18 00:11:00.709 [info] Root hash: 18ea125f1fe4498c2c337842241d0887faf767b0275986f36c7d9f5faca7c8bc
+2024-09-18 00:11:00.709 [info] In the out of sync case.
+2024-09-18 00:11:00.710 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"18ea125f1fe4498c2c337842241d0887faf767b0275986f36c7d9f5faca7c8bc"}
+2024-09-18 00:11:00.711 [info] Waiting on semaphore to be released 1
+2024-09-18 00:11:00.915 [info] Waiting on semaphore to be released 1
+2024-09-18 00:11:01.117 [info] setting numJobsToGo to 4
+2024-09-18 00:11:01.117 [info] [startSync]: numJobs: 4
+2024-09-18 00:11:01.117 [info] Uploading 4 files.
+2024-09-18 00:11:02.735 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-18 00:11:02.736 [info] Creating merkle client.
+2024-09-18 00:11:02.736 [info] Done creating merkle client.
+2024-09-18 00:11:02.736 [info] Doing a startup handshake.
+2024-09-18 00:11:02.737 [info] Indexing job successfully done or aborted.
+2024-09-18 00:11:02.744 [info] Finished initializing merkle tree in 7.775823999196291 ms.
+2024-09-18 00:11:02.744 [info] Doing the initial handshake with hash: 18ea125f1fe4498c2c337842241d0887faf767b0275986f36c7d9f5faca7c8bc
+2024-09-18 00:11:02.745 [info] Handshake start
+2024-09-18 00:11:04.062 [info] Handshake timing: 1318.0046050027013
+2024-09-18 00:11:04.063 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"5a47af60-7d53-42e3-aa76-11b227225121"}
+2024-09-18 00:11:04.063 [info] Starting fast remote sync.
+2024-09-18 00:11:04.063 [info] Total num embeddable files: 18
+2024-09-18 00:11:04.064 [info] Root hash: 18ea125f1fe4498c2c337842241d0887faf767b0275986f36c7d9f5faca7c8bc
+2024-09-18 00:11:04.064 [info] In the out of sync case.
+2024-09-18 00:11:04.064 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"18ea125f1fe4498c2c337842241d0887faf767b0275986f36c7d9f5faca7c8bc"}
+2024-09-18 00:11:04.065 [info] Waiting on semaphore to be released 1
+2024-09-18 00:11:04.264 [info] Waiting on semaphore to be released 1
+2024-09-18 00:11:04.464 [info] setting numJobsToGo to 2
+2024-09-18 00:11:04.465 [info] [startSync]: numJobs: 2
+2024-09-18 00:11:04.465 [info] Uploading 2 files.
+2024-09-18 00:11:07.034 [info] Finished indexing repository.
+2024-09-18 00:11:07.034 [info] Indexing job successfully done or aborted.
+2024-09-18 00:14:42.166 [info] Search by message took 13.39580100029707ms for query ""
+2024-09-18 00:14:42.169 [info] Search by sha took 10.491801999509335ms for query ""
+2024-09-18 00:14:42.524 [info] Search by message took 13.66219199821353ms for query ""
+2024-09-18 00:14:42.527 [info] Search by sha took 9.911821998655796ms for query ""
+2024-09-18 00:14:43.004 [info] Search by message took 12.226722002029419ms for query ""
+2024-09-18 00:14:43.007 [info] Search by sha took 9.909485999494791ms for query ""
+2024-09-18 00:14:43.530 [info] Search by message took 13.135474000126123ms for query ""
+2024-09-18 00:14:43.533 [info] Search by sha took 9.341949000954628ms for query ""
+2024-09-18 00:14:43.929 [info] Search by message took 17.35707099735737ms for query ""
+2024-09-18 00:14:43.935 [info] Search by sha took 13.316447999328375ms for query ""
+2024-09-18 00:14:44.305 [info] Search by message took 18.49514400213957ms for query ""
+2024-09-18 00:14:44.310 [info] Search by sha took 13.966409001499414ms for query ""
+2024-09-18 00:14:45.339 [info] Search by message took 12.014024000614882ms for query ""
+2024-09-18 00:14:45.342 [info] Search by sha took 8.214905001223087ms for query ""
+2024-09-18 00:14:45.697 [info] Search by message took 17.56523199751973ms for query ""
+2024-09-18 00:14:45.705 [info] Search by sha took 17.077488001435995ms for query ""
+2024-09-18 00:14:46.753 [info] Search by message took 17.642466001212597ms for query ""
+2024-09-18 00:14:46.758 [info] Search by sha took 12.49932499974966ms for query ""
+2024-09-18 00:14:48.138 [info] Search by message took 12.636009000241756ms for query ""
+2024-09-18 00:14:48.141 [info] Search by sha took 9.075798999518156ms for query ""
+2024-09-18 00:14:49.327 [info] Search by message took 16.46230499818921ms for query ""
+2024-09-18 00:14:49.331 [info] Search by sha took 9.87100899964571ms for query ""
+2024-09-18 00:14:49.748 [info] Search by message took 12.557163000106812ms for query ""
+2024-09-18 00:14:49.751 [info] Search by sha took 9.117988001555204ms for query ""
+2024-09-18 00:14:50.560 [info] Search by message took 19.160711999982595ms for query ""
+2024-09-18 00:14:50.563 [info] Search by sha took 12.643328998237848ms for query ""
+2024-09-18 00:15:18.384 [info] Search by message took 12.003536999225616ms for query ""
+2024-09-18 00:15:18.387 [info] Search by sha took 9.609101999551058ms for query ""
+2024-09-18 00:15:53.703 [info] Search by message took 15.72409600019455ms for query ""
+2024-09-18 00:15:53.715 [info] Search by message took 11.076476000249386ms for query ""
+2024-09-18 00:15:53.715 [info] Search by sha took 18.6776340007782ms for query ""
+2024-09-18 00:15:53.722 [info] Search by sha took 13.48148600012064ms for query ""
+2024-09-18 00:15:57.333 [info] Search by message took 12.621394999325275ms for query ""
+2024-09-18 00:15:57.346 [info] Search by message took 12.503500003367662ms for query ""
+2024-09-18 00:15:57.346 [info] Search by sha took 19.05757699906826ms for query ""
+2024-09-18 00:15:57.352 [info] Search by sha took 13.085902001708746ms for query ""
+2024-09-18 00:16:09.407 [info] Search by message took 12.733585000038147ms for query ""
+2024-09-18 00:16:09.420 [info] Search by message took 12.44081399962306ms for query ""
+2024-09-18 00:16:09.420 [info] Search by sha took 18.774696998298168ms for query ""
+2024-09-18 00:16:09.428 [info] Search by sha took 14.518552999943495ms for query ""
+2024-09-18 00:16:40.534 [info] Search by message took 15.914452999830246ms for query ""
+2024-09-18 00:16:40.538 [info] Search by sha took 10.071857001632452ms for query ""
+2024-09-18 00:16:40.970 [info] Search by message took 11.91660999879241ms for query ""
+2024-09-18 00:16:40.972 [info] Search by sha took 8.38611999899149ms for query ""
+2024-09-18 00:16:41.449 [info] Search by message took 12.459550000727177ms for query ""
+2024-09-18 00:16:41.451 [info] Search by sha took 8.629148997366428ms for query ""
+2024-09-18 00:16:41.847 [info] Search by message took 11.977979000657797ms for query ""
+2024-09-18 00:16:41.850 [info] Search by sha took 8.254908002912998ms for query ""
+2024-09-18 00:16:42.360 [info] Search by message took 11.32898100093007ms for query ""
+2024-09-18 00:16:42.363 [info] Search by sha took 9.025880999863148ms for query ""
+2024-09-18 00:16:42.782 [info] Search by message took 11.949237000197172ms for query ""
+2024-09-18 00:16:42.785 [info] Search by sha took 9.034537002444267ms for query ""
+2024-09-18 00:16:43.128 [info] Search by message took 10.848889999091625ms for query ""
+2024-09-18 00:16:43.132 [info] Search by sha took 9.151332002133131ms for query ""
+2024-09-18 00:16:44.338 [info] Search by message took 13.333974000066519ms for query ""
+2024-09-18 00:16:44.341 [info] Search by sha took 10.642057001590729ms for query ""
+2024-09-18 00:16:45.033 [info] Search by message took 11.702847000211477ms for query ""
+2024-09-18 00:16:45.036 [info] Search by sha took 8.3530029989779ms for query ""
+2024-09-18 00:16:45.528 [info] Search by message took 17.26529700309038ms for query ""
+2024-09-18 00:16:45.532 [info] Search by sha took 11.43214699998498ms for query ""
+2024-09-18 00:16:46.616 [info] Search by message took 13.091593999415636ms for query ""
+2024-09-18 00:16:46.619 [info] Search by sha took 10.369597002863884ms for query ""
+2024-09-18 00:16:47.136 [info] Search by message took 14.321887999773026ms for query ""
+2024-09-18 00:16:47.139 [info] Search by sha took 8.634918998926878ms for query ""
+2024-09-18 00:16:48.534 [info] Search by message took 16.894636999815702ms for query ""
+2024-09-18 00:16:48.538 [info] Search by sha took 11.638849999755621ms for query ""
+2024-09-18 00:16:52.087 [info] Search by message took 11.94896800071001ms for query ""
+2024-09-18 00:16:52.090 [info] Search by sha took 8.550367001444101ms for query ""
+2024-09-18 00:17:04.721 [info] Search by message took 19.366792999207973ms for query ""
+2024-09-18 00:17:04.726 [info] Search by sha took 11.909619003534317ms for query ""
+2024-09-18 00:17:34.656 [info] Search by message took 12.560397002846003ms for query ""
+2024-09-18 00:17:34.661 [info] Search by sha took 11.156644999980927ms for query ""
+2024-09-18 00:18:23.119 [info] Search by message took 13.629211001098156ms for query ""
+2024-09-18 00:18:23.131 [info] Search by message took 11.510599002242088ms for query ""
+2024-09-18 00:18:23.131 [info] Search by sha took 18.826065998524427ms for query ""
+2024-09-18 00:18:23.139 [info] Search by sha took 13.531113997101784ms for query ""
+2024-09-18 00:18:27.094 [info] Search by message took 16.530207000672817ms for query ""
+2024-09-18 00:18:27.094 [info] Search by sha took 25.488242000341415ms for query ""
+2024-09-18 00:18:27.094 [info] Search by message took 34.90393599867821ms for query ""
+2024-09-18 00:18:27.097 [info] Search by sha took 10.368569999933243ms for query ""
+2024-09-18 00:20:56.660 [info] Search by message took 12.33151800185442ms for query ""
+2024-09-18 00:20:56.664 [info] Search by sha took 9.697133000940084ms for query ""
+2024-09-18 00:20:56.678 [info] Search by message took 10.54501100257039ms for query ""
+2024-09-18 00:20:56.685 [info] Search by sha took 11.957524001598358ms for query ""
+2024-09-18 00:21:01.258 [info] Search by message took 15.34171500056982ms for query ""
+2024-09-18 00:21:01.268 [info] Search by message took 10.28286200016737ms for query ""
+2024-09-18 00:21:01.268 [info] Search by sha took 17.03277799859643ms for query ""
+2024-09-18 00:21:01.275 [info] Search by sha took 11.730577003210783ms for query ""
+2024-09-18 00:21:02.738 [info] Creating merkle client.
+2024-09-18 00:21:02.738 [info] Done creating merkle client.
+2024-09-18 00:21:02.738 [info] Doing a startup handshake.
+2024-09-18 00:21:02.744 [info] Finished initializing merkle tree in 6.004983998835087 ms.
+2024-09-18 00:21:02.745 [info] Doing the initial handshake with hash: c248711fafaf7cf683d7bdf33ff062634824e43c66a5d92328e43e03b3303a67
+2024-09-18 00:21:02.746 [info] Handshake start
+2024-09-18 00:21:03.525 [info] Handshake timing: 780.6007159985602
+2024-09-18 00:21:03.526 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"5a47af60-7d53-42e3-aa76-11b227225121"}
+2024-09-18 00:21:03.526 [info] Starting fast remote sync.
+2024-09-18 00:21:03.526 [info] Total num embeddable files: 18
+2024-09-18 00:21:03.526 [info] Root hash: c248711fafaf7cf683d7bdf33ff062634824e43c66a5d92328e43e03b3303a67
+2024-09-18 00:21:03.526 [info] In the out of sync case.
+2024-09-18 00:21:03.526 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"c248711fafaf7cf683d7bdf33ff062634824e43c66a5d92328e43e03b3303a67"}
+2024-09-18 00:21:03.527 [info] Waiting on semaphore to be released 1
+2024-09-18 00:21:03.727 [info] Waiting on semaphore to be released 1
+2024-09-18 00:21:03.928 [info] Waiting on semaphore to be released 1
+2024-09-18 00:21:04.128 [info] Waiting on semaphore to be released 1
+2024-09-18 00:21:04.328 [info] Waiting on semaphore to be released 1
+2024-09-18 00:21:04.529 [info] Waiting on semaphore to be released 1
+2024-09-18 00:21:04.729 [info] Waiting on semaphore to be released 1
+2024-09-18 00:21:04.929 [info] Waiting on semaphore to be released 1
+2024-09-18 00:21:05.129 [info] Waiting on semaphore to be released 1
+2024-09-18 00:21:05.330 [info] Waiting on semaphore to be released 1
+2024-09-18 00:21:05.530 [info] Waiting on semaphore to be released 1
+2024-09-18 00:21:05.731 [info] Waiting on semaphore to be released 1
+2024-09-18 00:21:05.932 [info] Waiting on semaphore to be released 1
+2024-09-18 00:21:06.137 [info] setting numJobsToGo to 1
+2024-09-18 00:21:06.137 [info] [startSync]: numJobs: 1
+2024-09-18 00:21:06.138 [info] Uploading 1 files.
+2024-09-18 00:21:07.281 [info] Search by message took 11.096250999718904ms for query ""
+2024-09-18 00:21:07.292 [info] Search by message took 10.363124001771212ms for query ""
+2024-09-18 00:21:07.292 [info] Search by sha took 15.71815399825573ms for query ""
+2024-09-18 00:21:07.298 [info] Search by sha took 11.964292000979185ms for query ""
+2024-09-18 00:21:08.315 [info] Finished indexing repository.
+2024-09-18 00:21:08.315 [info] Indexing job successfully done or aborted.
+2024-09-18 00:25:53.793 [info] Search by message took 15.486726000905037ms for query ""
+2024-09-18 00:25:53.810 [info] Search by message took 15.369029000401497ms for query ""
+2024-09-18 00:25:53.810 [info] Search by sha took 23.528556998819113ms for query ""
+2024-09-18 00:25:53.810 [info] Search by sha took 10.590982999652624ms for query ""
+2024-09-18 00:25:55.106 [info] Search by message took 16.200774997472763ms for query ""
+2024-09-18 00:25:55.119 [info] Search by message took 12.384008001536131ms for query ""
+2024-09-18 00:25:55.119 [info] Search by sha took 21.48999300226569ms for query ""
+2024-09-18 00:25:55.126 [info] Search by sha took 13.765140000730753ms for query ""
+2024-09-18 00:25:55.837 [info] Search by message took 13.159008000046015ms for query ""
+2024-09-18 00:25:55.851 [info] Search by message took 13.607615999877453ms for query ""
+2024-09-18 00:25:55.851 [info] Search by sha took 20.926436003297567ms for query ""
+2024-09-18 00:25:55.857 [info] Search by sha took 12.71026000007987ms for query ""
+2024-09-18 00:25:57.034 [info] Search by message took 16.52064900100231ms for query ""
+2024-09-18 00:25:57.047 [info] Search by message took 13.40183899924159ms for query ""
+2024-09-18 00:25:57.047 [info] Search by sha took 20.71042999997735ms for query ""
+2024-09-18 00:25:57.054 [info] Search by sha took 14.60912799835205ms for query ""
+2024-09-18 00:25:57.819 [info] Search by message took 11.12134899944067ms for query ""
+2024-09-18 00:25:57.829 [info] Search by message took 9.580598998814821ms for query ""
+2024-09-18 00:25:57.829 [info] Search by sha took 14.833845999091864ms for query ""
+2024-09-18 00:25:57.834 [info] Search by sha took 10.226932000368834ms for query ""
+2024-09-18 00:26:10.804 [info] Search by message took 13.583096001297235ms for query ""
+2024-09-18 00:26:10.817 [info] Search by message took 12.384614001959562ms for query ""
+2024-09-18 00:26:10.817 [info] Search by sha took 18.584088999778032ms for query ""
+2024-09-18 00:26:10.823 [info] Search by sha took 12.88646700233221ms for query ""
+2024-09-18 00:26:37.431 [info] Search by message took 16.756087999790907ms for query ""
+2024-09-18 00:26:37.445 [info] Search by message took 14.165752999484539ms for query ""
+2024-09-18 00:26:37.445 [info] Search by sha took 22.89369599893689ms for query ""
+2024-09-18 00:26:37.451 [info] Search by sha took 14.057431999593973ms for query ""
+2024-09-18 00:26:46.294 [info] Search by message took 12.467664003372192ms for query ""
+2024-09-18 00:26:46.306 [info] Search by message took 12.175795000046492ms for query ""
+2024-09-18 00:26:46.306 [info] Search by sha took 18.18274499848485ms for query ""
+2024-09-18 00:26:46.308 [info] Search by sha took 8.853884998708963ms for query ""
+2024-09-18 00:26:54.125 [info] Search by message took 12.307631000876427ms for query ""
+2024-09-18 00:26:54.135 [info] Search by message took 10.279490001499653ms for query ""
+2024-09-18 00:26:54.135 [info] Search by sha took 16.37279699742794ms for query ""
+2024-09-18 00:26:54.142 [info] Search by sha took 11.44454500079155ms for query ""
+2024-09-18 00:27:08.315 [info] Search by message took 14.130903001874685ms for query ""
+2024-09-18 00:27:08.329 [info] Search by message took 14.030867997556925ms for query ""
+2024-09-18 00:27:08.329 [info] Search by sha took 20.867127999663353ms for query ""
+2024-09-18 00:27:08.335 [info] Search by sha took 12.4082089997828ms for query ""
+2024-09-18 00:27:28.710 [info] Search by message took 19.9867599979043ms for query ""
+2024-09-18 00:27:28.725 [info] Search by message took 14.825360998511314ms for query ""
+2024-09-18 00:27:28.725 [info] Search by sha took 23.19616799801588ms for query ""
+2024-09-18 00:27:28.728 [info] Search by sha took 10.16712000221014ms for query ""
+2024-09-18 00:27:33.479 [info] Search by message took 11.742566999047995ms for query ""
+2024-09-18 00:27:33.490 [info] Search by message took 10.623160999268293ms for query ""
+2024-09-18 00:27:33.490 [info] Search by sha took 17.202050000429153ms for query ""
+2024-09-18 00:27:33.497 [info] Search by sha took 12.068935997784138ms for query ""
+2024-09-18 00:27:34.416 [info] Search by message took 11.598963998258114ms for query ""
+2024-09-18 00:27:34.427 [info] Search by message took 10.690063998103142ms for query ""
+2024-09-18 00:27:34.427 [info] Search by sha took 16.883710000663996ms for query ""
+2024-09-18 00:27:34.433 [info] Search by sha took 11.72825900092721ms for query ""
+2024-09-18 00:27:51.182 [info] Search by message took 17.851596999913454ms for query ""
+2024-09-18 00:27:51.199 [info] Search by message took 17.161714002490044ms for query ""
+2024-09-18 00:27:51.199 [info] Search by sha took 26.848864000290632ms for query ""
+2024-09-18 00:27:51.207 [info] Search by sha took 16.53957299888134ms for query ""
+2024-09-18 00:29:41.130 [info] Search by message took 14.460290998220444ms for query ""
+2024-09-18 00:29:41.135 [info] Search by sha took 11.501501999795437ms for query ""
+2024-09-18 00:29:41.842 [info] Search by message took 19.418421998620033ms for query ""
+2024-09-18 00:29:41.845 [info] Search by sha took 13.078960001468658ms for query ""
+2024-09-18 00:29:42.361 [info] Search by message took 20.688480999320745ms for query ""
+2024-09-18 00:29:42.367 [info] Search by sha took 14.945843998342752ms for query ""
+2024-09-18 00:29:42.946 [info] Search by message took 21.23608399927616ms for query ""
+2024-09-18 00:29:42.950 [info] Search by sha took 14.638023998588324ms for query ""
+2024-09-18 00:29:43.481 [info] Search by message took 13.536729998886585ms for query ""
+2024-09-18 00:29:43.484 [info] Search by sha took 9.6809610016644ms for query ""
+2024-09-18 00:29:44.002 [info] Search by message took 21.807282999157906ms for query ""
+2024-09-18 00:29:44.007 [info] Search by sha took 15.679194997996092ms for query ""
+2024-09-18 00:29:44.724 [info] Search by message took 20.924998998641968ms for query ""
+2024-09-18 00:29:44.730 [info] Search by sha took 15.69820299744606ms for query ""
+2024-09-18 00:29:45.470 [info] Search by message took 21.291414998471737ms for query ""
+2024-09-18 00:29:45.472 [info] Search by sha took 11.106102999299765ms for query ""
+2024-09-18 00:29:48.706 [info] Search by message took 19.127932000905275ms for query ""
+2024-09-18 00:29:48.710 [info] Search by sha took 11.587393999099731ms for query ""
+2024-09-18 00:29:50.206 [info] Search by message took 22.932459000498056ms for query ""
+2024-09-18 00:29:50.215 [info] Search by sha took 19.374615002423525ms for query ""
+2024-09-18 00:29:51.052 [info] Search by message took 13.621321998536587ms for query ""
+2024-09-18 00:29:51.055 [info] Search by sha took 8.948927998542786ms for query ""
+2024-09-18 00:29:51.516 [info] Search by message took 16.0006840005517ms for query ""
+2024-09-18 00:29:51.519 [info] Search by sha took 11.427353002130985ms for query ""
+2024-09-18 00:29:52.313 [info] Search by message took 19.91959699988365ms for query ""
+2024-09-18 00:29:52.317 [info] Search by sha took 13.010297998785973ms for query ""
+2024-09-18 00:30:25.822 [info] Search by message took 14.971390001475811ms for query ""
+2024-09-18 00:30:25.825 [info] Search by sha took 11.120037999004126ms for query ""
+2024-09-18 00:31:00.257 [info] Search by message took 19.37560300156474ms for query ""
+2024-09-18 00:31:00.260 [info] Search by sha took 12.25084299966693ms for query ""
+2024-09-18 00:31:01.033 [info] Search by message took 17.82923800125718ms for query ""
+2024-09-18 00:31:01.036 [info] Search by sha took 10.471870999783278ms for query ""
+2024-09-18 00:31:02.738 [info] Creating merkle client.
+2024-09-18 00:31:02.738 [info] Done creating merkle client.
+2024-09-18 00:31:02.738 [info] Doing a startup handshake.
+2024-09-18 00:31:02.743 [info] Finished initializing merkle tree in 5.1717859990894794 ms.
+2024-09-18 00:31:02.744 [info] Doing the initial handshake with hash: a94d2cc4ae23974ad682f5a357da6ce8b4cebcc48e79847ed20d59d745166081
+2024-09-18 00:31:02.746 [info] Handshake start
+2024-09-18 00:31:05.711 [info] Handshake start
+2024-09-18 00:31:05.975 [info] Handshake timing: 265.037243001163
+2024-09-18 00:31:05.975 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"5a47af60-7d53-42e3-aa76-11b227225121"}
+2024-09-18 00:31:05.975 [info] Starting fast remote sync.
+2024-09-18 00:31:05.976 [info] Total num embeddable files: 18
+2024-09-18 00:31:05.976 [info] Root hash: a94d2cc4ae23974ad682f5a357da6ce8b4cebcc48e79847ed20d59d745166081
+2024-09-18 00:31:05.976 [info] In the out of sync case.
+2024-09-18 00:31:05.976 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"a94d2cc4ae23974ad682f5a357da6ce8b4cebcc48e79847ed20d59d745166081"}
+2024-09-18 00:31:05.977 [info] Waiting on semaphore to be released 1
+2024-09-18 00:31:06.176 [info] Waiting on semaphore to be released 1
+2024-09-18 00:31:06.376 [info] setting numJobsToGo to 2
+2024-09-18 00:31:06.376 [info] [startSync]: numJobs: 2
+2024-09-18 00:31:06.376 [info] Uploading 2 files.
+2024-09-18 00:31:09.000 [info] Finished indexing repository.
+2024-09-18 00:31:09.000 [info] Indexing job successfully done or aborted.
+2024-09-18 00:31:25.970 [info] Search by message took 16.669962998479605ms for query ""
+2024-09-18 00:31:25.973 [info] Search by sha took 9.09332799911499ms for query ""
+2024-09-18 00:31:33.980 [info] Search by message took 12.9396230019629ms for query ""
+2024-09-18 00:31:33.983 [info] Search by sha took 9.127183999866247ms for query ""
+2024-09-18 00:31:34.466 [info] Search by message took 12.896921001374722ms for query ""
+2024-09-18 00:31:34.470 [info] Search by sha took 9.549148000776768ms for query ""
+2024-09-18 00:31:34.843 [info] Search by message took 13.340050000697374ms for query ""
+2024-09-18 00:31:34.846 [info] Search by sha took 9.871965996921062ms for query ""
+2024-09-18 00:31:35.258 [info] Search by message took 13.434257000684738ms for query ""
+2024-09-18 00:31:35.261 [info] Search by sha took 9.207022000104189ms for query ""
+2024-09-18 00:31:35.670 [info] Search by message took 13.290284000337124ms for query ""
+2024-09-18 00:31:35.675 [info] Search by sha took 11.310251999646425ms for query ""
+2024-09-18 00:31:36.084 [info] Search by message took 17.702428996562958ms for query ""
+2024-09-18 00:31:36.089 [info] Search by sha took 11.649250000715256ms for query ""
+2024-09-18 00:31:37.282 [info] Search by message took 13.37397700175643ms for query ""
+2024-09-18 00:31:37.286 [info] Search by sha took 9.90727100148797ms for query ""
+2024-09-18 00:31:37.778 [info] Search by message took 12.425380002707243ms for query ""
+2024-09-18 00:31:37.780 [info] Search by sha took 9.18341900035739ms for query ""
+2024-09-18 00:31:39.543 [info] Search by message took 18.45363599807024ms for query ""
+2024-09-18 00:31:39.546 [info] Search by sha took 11.356376998126507ms for query ""
+2024-09-18 00:31:40.232 [info] Search by message took 18.144023001194ms for query ""
+2024-09-18 00:31:40.236 [info] Search by sha took 10.636766999959946ms for query ""
+2024-09-18 00:31:41.537 [info] Search by message took 14.32837900146842ms for query ""
+2024-09-18 00:31:41.540 [info] Search by sha took 8.905882000923157ms for query ""
+2024-09-18 00:31:42.998 [info] Search by message took 15.066679000854492ms for query ""
+2024-09-18 00:31:43.001 [info] Search by sha took 10.497184000909328ms for query ""
+2024-09-18 00:31:44.372 [info] Search by message took 14.023387998342514ms for query ""
+2024-09-18 00:31:44.375 [info] Search by sha took 10.417070999741554ms for query ""
+2024-09-18 00:31:45.177 [info] Search by message took 17.19938199967146ms for query ""
+2024-09-18 00:31:45.181 [info] Search by sha took 12.592427998781204ms for query ""
+2024-09-18 00:33:01.320 [info] Search by message took 13.207267999649048ms for query ""
+2024-09-18 00:33:01.324 [info] Search by sha took 9.804274000227451ms for query ""
+2024-09-18 00:34:35.939 [info] Search by message took 15.402651000767946ms for query ""
+2024-09-18 00:34:35.950 [info] Search by message took 10.7415039986372ms for query ""
+2024-09-18 00:34:35.950 [info] Search by sha took 17.14758599922061ms for query ""
+2024-09-18 00:34:35.957 [info] Search by sha took 11.93775799870491ms for query ""
+2024-09-18 00:34:38.435 [info] Search by message took 19.474832002073526ms for query ""
+2024-09-18 00:34:38.448 [info] Search by message took 12.267194997519255ms for query ""
+2024-09-18 00:34:38.448 [info] Search by sha took 21.895325001329184ms for query ""
+2024-09-18 00:34:38.451 [info] Search by sha took 8.305982001125813ms for query ""
+2024-09-18 00:34:39.089 [info] Search by message took 17.777667999267578ms for query ""
+2024-09-18 00:34:39.092 [info] Search by sha took 9.151631001383066ms for query ""
+2024-09-18 00:35:59.575 [info] Search by message took 20.800083998590708ms for query ""
+2024-09-18 00:35:59.590 [info] Search by message took 14.758364003151655ms for query ""
+2024-09-18 00:35:59.590 [info] Search by sha took 25.563387997448444ms for query ""
+2024-09-18 00:35:59.592 [info] Search by sha took 9.05341799929738ms for query ""
+2024-09-18 00:36:06.337 [info] Search by message took 17.98793699964881ms for query ""
+2024-09-18 00:36:06.339 [info] Search by sha took 9.639554999768734ms for query ""
+2024-09-18 00:36:06.743 [info] Search by message took 17.78862800076604ms for query ""
+2024-09-18 00:36:06.747 [info] Search by sha took 11.477848000824451ms for query ""
+2024-09-18 00:36:07.097 [info] Search by message took 17.95618499815464ms for query ""
+2024-09-18 00:36:07.100 [info] Search by sha took 11.554440002888441ms for query ""
+2024-09-18 00:36:07.495 [info] Search by message took 15.860685002058744ms for query ""
+2024-09-18 00:36:07.499 [info] Search by sha took 11.171270001679659ms for query ""
+2024-09-18 00:36:07.876 [info] Search by message took 14.673902999609709ms for query ""
+2024-09-18 00:36:07.881 [info] Search by sha took 11.506903998553753ms for query ""
+2024-09-18 00:36:08.259 [info] Search by message took 20.091674000024796ms for query ""
+2024-09-18 00:36:08.264 [info] Search by sha took 14.292050000280142ms for query ""
+2024-09-18 00:36:08.633 [info] Search by message took 16.804577000439167ms for query ""
+2024-09-18 00:36:08.637 [info] Search by sha took 10.250103000551462ms for query ""
+2024-09-18 00:36:08.995 [info] Search by message took 21.05178700014949ms for query ""
+2024-09-18 00:36:08.999 [info] Search by sha took 13.898582998663187ms for query ""
+2024-09-18 00:36:10.443 [info] Search by message took 20.471333000808954ms for query ""
+2024-09-18 00:36:10.446 [info] Search by sha took 12.01087399944663ms for query ""
+2024-09-18 00:36:12.293 [info] Search by message took 13.359180998057127ms for query ""
+2024-09-18 00:36:12.296 [info] Search by sha took 9.052716001868248ms for query ""
+2024-09-18 00:36:13.128 [info] Search by message took 23.941430997103453ms for query ""
+2024-09-18 00:36:13.132 [info] Search by sha took 15.632122997194529ms for query ""
+2024-09-18 00:36:13.746 [info] Search by message took 19.569223999977112ms for query ""
+2024-09-18 00:36:13.748 [info] Search by sha took 10.710584998130798ms for query ""
+2024-09-18 00:36:14.683 [info] Search by message took 17.43612600117922ms for query ""
+2024-09-18 00:36:14.688 [info] Search by sha took 12.433205001056194ms for query ""
+2024-09-18 00:38:39.468 [info] Search by message took 16.07991100102663ms for query ""
+2024-09-18 00:38:39.471 [info] Search by sha took 11.218706000596285ms for query ""
+2024-09-18 00:38:42.451 [info] Search by message took 18.953244999051094ms for query ""
+2024-09-18 00:38:42.456 [info] Search by sha took 12.865201000124216ms for query ""
+2024-09-18 00:39:06.809 [info] Search by message took 11.250636998564005ms for query ""
+2024-09-18 00:39:06.813 [info] Search by sha took 8.565364003181458ms for query ""
+2024-09-18 00:39:09.450 [info] Search by message took 19.753593001514673ms for query ""
+2024-09-18 00:39:09.462 [info] Search by message took 11.619353000074625ms for query ""
+2024-09-18 00:39:09.462 [info] Search by sha took 20.832919999957085ms for query ""
+2024-09-18 00:39:09.469 [info] Search by sha took 12.223969001322985ms for query ""
+2024-09-18 00:39:17.011 [info] Search by message took 18.344020001590252ms for query ""
+2024-09-18 00:39:17.023 [info] Search by message took 11.645915001630783ms for query ""
+2024-09-18 00:39:17.023 [info] Search by sha took 20.654006998986006ms for query ""
+2024-09-18 00:39:17.032 [info] Search by sha took 14.020162001252174ms for query ""
+2024-09-18 00:39:22.036 [info] Search by message took 15.3052789978683ms for query ""
+2024-09-18 00:39:22.047 [info] Search by message took 11.009470999240875ms for query ""
+2024-09-18 00:39:22.047 [info] Search by sha took 19.451282002031803ms for query ""
+2024-09-18 00:39:22.054 [info] Search by sha took 11.653158999979496ms for query ""
+2024-09-18 00:39:47.960 [info] Search by message took 12.91499300301075ms for query ""
+2024-09-18 00:39:47.960 [info] Search by sha took 20.28353100270033ms for query ""
+2024-09-18 00:39:47.960 [info] Search by message took 28.28083500266075ms for query ""
+2024-09-18 00:39:47.967 [info] Search by sha took 13.995650999248028ms for query ""
+2024-09-18 00:40:04.262 [info] Search by message took 18.42256100103259ms for query ""
+2024-09-18 00:40:04.273 [info] Search by message took 11.126713998615742ms for query ""
+2024-09-18 00:40:04.273 [info] Search by sha took 19.460698999464512ms for query ""
+2024-09-18 00:40:04.280 [info] Search by sha took 12.735969997942448ms for query ""
+2024-09-18 00:40:05.310 [info] Search by message took 14.696055002510548ms for query ""
+2024-09-18 00:40:05.323 [info] Search by message took 12.160760000348091ms for query ""
+2024-09-18 00:40:05.323 [info] Search by sha took 18.789449997246265ms for query ""
+2024-09-18 00:40:05.330 [info] Search by sha took 13.257108002901077ms for query ""
+2024-09-18 00:40:06.183 [info] Search by message took 13.44064600020647ms for query ""
+2024-09-18 00:40:06.194 [info] Search by message took 10.994804002344608ms for query ""
+2024-09-18 00:40:06.194 [info] Search by sha took 17.540392998605967ms for query ""
+2024-09-18 00:40:06.200 [info] Search by sha took 11.272091999650002ms for query ""
+2024-09-18 00:40:19.661 [info] Search by message took 20.96596200019121ms for query ""
+2024-09-18 00:40:19.664 [info] Search by sha took 11.98854300007224ms for query ""
+2024-09-18 00:40:23.823 [info] Search by message took 14.94700999930501ms for query ""
+2024-09-18 00:40:23.826 [info] Search by sha took 10.958291999995708ms for query ""
+2024-09-18 00:40:36.508 [info] Search by message took 15.547267001122236ms for query ""
+2024-09-18 00:40:36.511 [info] Search by sha took 9.880045998841524ms for query ""
+2024-09-18 00:40:50.120 [info] Search by message took 19.568472001701593ms for query ""
+2024-09-18 00:40:50.137 [info] Search by message took 16.576046999543905ms for query ""
+2024-09-18 00:40:50.137 [info] Search by sha took 26.28743800148368ms for query ""
+2024-09-18 00:40:50.144 [info] Search by sha took 14.699149001389742ms for query ""
+2024-09-18 00:41:02.738 [info] Creating merkle client.
+2024-09-18 00:41:02.738 [info] Done creating merkle client.
+2024-09-18 00:41:02.738 [info] Doing a startup handshake.
+2024-09-18 00:41:02.744 [info] Finished initializing merkle tree in 5.286554999649525 ms.
+2024-09-18 00:41:02.744 [info] Doing the initial handshake with hash: 99ada2c46358b939bd4bf9bd0e997dd0063ff1fb0c0dbcd57374411bac67603d
+2024-09-18 00:41:02.746 [info] Handshake start
+2024-09-18 00:41:03.534 [info] Handshake timing: 789.384379003197
+2024-09-18 00:41:03.535 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"5a47af60-7d53-42e3-aa76-11b227225121"}
+2024-09-18 00:41:03.535 [info] Starting fast remote sync.
+2024-09-18 00:41:03.535 [info] Total num embeddable files: 18
+2024-09-18 00:41:03.536 [info] Root hash: 99ada2c46358b939bd4bf9bd0e997dd0063ff1fb0c0dbcd57374411bac67603d
+2024-09-18 00:41:03.536 [info] In the out of sync case.
+2024-09-18 00:41:03.537 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"99ada2c46358b939bd4bf9bd0e997dd0063ff1fb0c0dbcd57374411bac67603d"}
+2024-09-18 00:41:03.538 [info] Waiting on semaphore to be released 1
+2024-09-18 00:41:03.737 [info] Waiting on semaphore to be released 1
+2024-09-18 00:41:03.938 [info] Waiting on semaphore to be released 1
+2024-09-18 00:41:04.139 [info] Waiting on semaphore to be released 1
+2024-09-18 00:41:04.340 [info] Waiting on semaphore to be released 1
+2024-09-18 00:41:04.540 [info] Waiting on semaphore to be released 1
+2024-09-18 00:41:04.740 [info] Waiting on semaphore to be released 1
+2024-09-18 00:41:04.941 [info] Waiting on semaphore to be released 1
+2024-09-18 00:41:05.141 [info] Waiting on semaphore to be released 1
+2024-09-18 00:41:05.342 [info] Waiting on semaphore to be released 1
+2024-09-18 00:41:05.543 [info] Waiting on semaphore to be released 1
+2024-09-18 00:41:05.743 [info] Waiting on semaphore to be released 1
+2024-09-18 00:41:05.944 [info] Waiting on semaphore to be released 1
+2024-09-18 00:41:06.145 [info] setting numJobsToGo to 3
+2024-09-18 00:41:06.145 [info] [startSync]: numJobs: 3
+2024-09-18 00:41:06.145 [info] Uploading 3 files.
+2024-09-18 00:41:10.097 [info] Search by message took 19.278470002114773ms for query ""
+2024-09-18 00:41:10.100 [info] Search by sha took 10.991640999913216ms for query ""
+2024-09-18 00:41:11.636 [info] Finished indexing repository.
+2024-09-18 00:41:11.636 [info] Indexing job successfully done or aborted.
+2024-09-18 00:41:12.390 [info] Search by message took 14.29882999882102ms for query ""
+2024-09-18 00:41:12.392 [info] Search by sha took 8.966152001172304ms for query ""
+2024-09-18 00:41:28.020 [info] Search by message took 15.296504996716976ms for query ""
+2024-09-18 00:41:28.034 [info] Search by message took 13.239326998591423ms for query ""
+2024-09-18 00:41:28.034 [info] Search by sha took 19.673118997365236ms for query ""
+2024-09-18 00:41:28.040 [info] Search by sha took 13.306575998663902ms for query ""
+2024-09-18 00:42:49.954 [info] Search by message took 19.325985997915268ms for query ""
+2024-09-18 00:42:49.959 [info] Search by sha took 13.856805000454187ms for query ""
+2024-09-18 00:42:50.249 [info] Search by message took 17.629122998565435ms for query ""
+2024-09-18 00:42:50.252 [info] Search by sha took 11.053484000265598ms for query ""
+2024-09-18 00:42:50.569 [info] Search by message took 18.008878998458385ms for query ""
+2024-09-18 00:42:50.572 [info] Search by sha took 11.136768002063036ms for query ""
+2024-09-18 00:42:50.867 [info] Search by message took 21.160369999706745ms for query ""
+2024-09-18 00:42:50.871 [info] Search by sha took 13.908146999776363ms for query ""
+2024-09-18 00:42:51.207 [info] Search by message took 23.362208999693394ms for query ""
+2024-09-18 00:42:51.215 [info] Search by sha took 18.85299699753523ms for query ""
+2024-09-18 00:42:51.582 [info] Search by message took 21.10429100319743ms for query ""
+2024-09-18 00:42:51.585 [info] Search by sha took 11.851073998957872ms for query ""
+2024-09-18 00:42:52.222 [info] Search by message took 14.608841001987457ms for query ""
+2024-09-18 00:42:52.225 [info] Search by sha took 9.768079999834299ms for query ""
+2024-09-18 00:42:53.704 [info] Search by message took 16.843964003026485ms for query ""
+2024-09-18 00:42:53.708 [info] Search by sha took 11.646692998707294ms for query ""
+2024-09-18 00:42:54.304 [info] Search by message took 15.058984000235796ms for query ""
+2024-09-18 00:42:54.308 [info] Search by sha took 10.197332996875048ms for query ""
+2024-09-18 00:42:54.692 [info] Search by message took 19.00823699682951ms for query ""
+2024-09-18 00:42:54.695 [info] Search by sha took 11.565079998224974ms for query ""
+2024-09-18 00:42:55.641 [info] Search by message took 16.91430900245905ms for query ""
+2024-09-18 00:42:55.644 [info] Search by sha took 9.51325299963355ms for query ""
+2024-09-18 00:42:55.890 [info] Search by message took 19.24795100092888ms for query ""
+2024-09-18 00:42:55.895 [info] Search by sha took 13.300503998994827ms for query ""
+2024-09-18 00:42:56.773 [info] Search by message took 20.117808997631073ms for query ""
+2024-09-18 00:42:56.776 [info] Search by sha took 13.403080999851227ms for query ""
+2024-09-18 00:43:21.988 [info] Search by message took 17.259234998375177ms for query ""
+2024-09-18 00:43:21.992 [info] Search by sha took 10.352692998945713ms for query ""
+2024-09-18 00:43:27.537 [info] Search by message took 14.324188001453876ms for query ""
+2024-09-18 00:43:27.540 [info] Search by sha took 9.30706699937582ms for query ""
+2024-09-18 00:43:30.280 [info] Search by message took 13.551394000649452ms for query ""
+2024-09-18 00:43:30.291 [info] Search by message took 10.752535998821259ms for query ""
+2024-09-18 00:43:30.291 [info] Search by sha took 16.598312001675367ms for query ""
+2024-09-18 00:43:30.297 [info] Search by sha took 11.76672799885273ms for query ""
+2024-09-18 00:47:04.430 [info] Search by message took 17.215038001537323ms for query ""
+2024-09-18 00:47:04.435 [info] Search by sha took 11.85113500058651ms for query ""
+2024-09-18 00:47:38.754 [info] Search by message took 20.261399999260902ms for query ""
+2024-09-18 00:47:38.758 [info] Search by sha took 14.386172998696566ms for query ""
+2024-09-18 00:48:27.858 [info] Search by message took 17.135657999664545ms for query ""
+2024-09-18 00:48:27.869 [info] Search by message took 10.953583996742964ms for query ""
+2024-09-18 00:48:27.869 [info] Search by sha took 17.680579997599125ms for query ""
+2024-09-18 00:48:27.876 [info] Search by sha took 12.566631998866796ms for query ""
+2024-09-18 00:48:38.152 [info] Search by message took 21.05281800031662ms for query ""
+2024-09-18 00:48:38.155 [info] Search by sha took 11.645410001277924ms for query ""
+2024-09-18 00:48:56.186 [info] Search by message took 20.859815001487732ms for query ""
+2024-09-18 00:48:56.200 [info] Search by message took 14.459702000021935ms for query ""
+2024-09-18 00:48:56.200 [info] Search by sha took 24.225391998887062ms for query ""
+2024-09-18 00:48:56.208 [info] Search by sha took 14.129468999803066ms for query ""
+2024-09-18 00:49:04.564 [info] Search by message took 17.32225299999118ms for query ""
+2024-09-18 00:49:04.567 [info] Search by sha took 10.942184999585152ms for query ""
+2024-09-18 00:50:08.456 [info] Search by message took 18.376568999141455ms for query ""
+2024-09-18 00:50:08.460 [info] Search by sha took 12.465004000812769ms for query ""
+2024-09-18 00:50:53.434 [info] Search by message took 18.4275620020926ms for query ""
+2024-09-18 00:50:53.446 [info] Search by message took 11.909086000174284ms for query ""
+2024-09-18 00:50:53.446 [info] Search by sha took 19.29187799990177ms for query ""
+2024-09-18 00:50:53.452 [info] Search by sha took 12.597761001437902ms for query ""
+2024-09-18 00:50:59.938 [info] Search by message took 21.07837099954486ms for query ""
+2024-09-18 00:50:59.954 [info] Search by message took 15.054757002741098ms for query ""
+2024-09-18 00:50:59.954 [info] Search by sha took 25.410537999123335ms for query ""
+2024-09-18 00:50:59.961 [info] Search by sha took 12.374636001884937ms for query ""
+2024-09-18 00:51:02.738 [info] Creating merkle client.
+2024-09-18 00:51:02.738 [info] Done creating merkle client.
+2024-09-18 00:51:02.738 [info] Doing a startup handshake.
+2024-09-18 00:51:02.742 [info] Finished initializing merkle tree in 3.895837999880314 ms.
+2024-09-18 00:51:02.743 [info] Doing the initial handshake with hash: b1aaf50569082c02041c107742a6c18f6aa3d7f4c6d1c454c67c1696f49ffcc4
+2024-09-18 00:51:02.745 [info] Handshake start
+2024-09-18 00:51:03.492 [info] Search by message took 15.858914002776146ms for query ""
+2024-09-18 00:51:03.503 [info] Search by message took 11.105586998164654ms for query ""
+2024-09-18 00:51:03.503 [info] Search by sha took 19.18793899938464ms for query ""
+2024-09-18 00:51:03.506 [info] Search by sha took 8.774898000061512ms for query ""
+2024-09-18 00:51:04.083 [info] Handshake timing: 1339.8284210003912
+2024-09-18 00:51:04.083 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"5a47af60-7d53-42e3-aa76-11b227225121"}
+2024-09-18 00:51:04.083 [info] Starting fast remote sync.
+2024-09-18 00:51:04.084 [info] Total num embeddable files: 18
+2024-09-18 00:51:04.084 [info] Root hash: b1aaf50569082c02041c107742a6c18f6aa3d7f4c6d1c454c67c1696f49ffcc4
+2024-09-18 00:51:04.084 [info] In the out of sync case.
+2024-09-18 00:51:04.084 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"b1aaf50569082c02041c107742a6c18f6aa3d7f4c6d1c454c67c1696f49ffcc4"}
+2024-09-18 00:51:04.085 [info] Waiting on semaphore to be released 1
+2024-09-18 00:51:04.284 [info] Waiting on semaphore to be released 1
+2024-09-18 00:51:04.485 [info] setting numJobsToGo to 1
+2024-09-18 00:51:04.485 [info] [startSync]: numJobs: 1
+2024-09-18 00:51:04.485 [info] Uploading 1 files.
+2024-09-18 00:51:06.679 [info] Finished indexing repository.
+2024-09-18 00:51:06.680 [info] Indexing job successfully done or aborted.
+2024-09-18 00:51:38.783 [info] Search by message took 17.69039999693632ms for query ""
+2024-09-18 00:51:38.795 [info] Search by message took 11.944049000740051ms for query ""
+2024-09-18 00:51:38.795 [info] Search by sha took 19.438759997487068ms for query ""
+2024-09-18 00:51:38.802 [info] Search by sha took 12.291109997779131ms for query ""
+2024-09-18 01:01:02.739 [info] Creating merkle client.
+2024-09-18 01:01:02.739 [info] Done creating merkle client.
+2024-09-18 01:01:02.739 [info] Doing a startup handshake.
+2024-09-18 01:01:02.745 [info] Finished initializing merkle tree in 6.729725997895002 ms.
+2024-09-18 01:01:02.746 [info] Doing the initial handshake with hash: 19a1e3bcfc8160dd5a0f85d6a8f130c5cada70d6ed535c1fde8d6a5fa6c8bc71
+2024-09-18 01:01:02.748 [info] Handshake start
+2024-09-18 01:01:04.191 [info] Handshake timing: 1443.7566870003939
+2024-09-18 01:01:04.191 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"5a47af60-7d53-42e3-aa76-11b227225121"}
+2024-09-18 01:01:04.191 [info] Starting fast remote sync.
+2024-09-18 01:01:04.191 [info] Total num embeddable files: 18
+2024-09-18 01:01:04.192 [info] Root hash: 19a1e3bcfc8160dd5a0f85d6a8f130c5cada70d6ed535c1fde8d6a5fa6c8bc71
+2024-09-18 01:01:04.192 [info] In the out of sync case.
+2024-09-18 01:01:04.192 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"19a1e3bcfc8160dd5a0f85d6a8f130c5cada70d6ed535c1fde8d6a5fa6c8bc71"}
+2024-09-18 01:01:04.193 [info] Waiting on semaphore to be released 1
+2024-09-18 01:01:04.392 [info] Waiting on semaphore to be released 1
+2024-09-18 01:01:04.593 [info] setting numJobsToGo to 2
+2024-09-18 01:01:04.593 [info] [startSync]: numJobs: 2
+2024-09-18 01:01:04.593 [info] Uploading 2 files.
+2024-09-18 01:01:08.167 [info] Finished indexing repository.
+2024-09-18 01:01:08.167 [info] Indexing job successfully done or aborted.
+2024-09-18 01:01:52.504 [info] Search by message took 17.45016599819064ms for query ""
+2024-09-18 01:01:52.508 [info] Search by sha took 10.171973999589682ms for query ""
+2024-09-18 01:01:58.102 [info] Search by message took 17.06691699847579ms for query ""
+2024-09-18 01:01:58.105 [info] Search by sha took 10.110782001167536ms for query ""
+2024-09-18 01:03:34.813 [info] Search by message took 15.757840000092983ms for query ""
+2024-09-18 01:03:34.817 [info] Search by sha took 11.319623999297619ms for query ""
+2024-09-18 01:03:42.100 [info] Search by message took 17.44090400263667ms for query ""
+2024-09-18 01:03:42.103 [info] Search by sha took 9.337944999337196ms for query ""
+2024-09-18 01:04:04.379 [info] Search by message took 19.888140998780727ms for query ""
+2024-09-18 01:04:04.393 [info] Search by message took 13.035544000566006ms for query ""
+2024-09-18 01:04:04.393 [info] Search by sha took 22.09222799912095ms for query ""
+2024-09-18 01:04:04.400 [info] Search by sha took 13.475443001836538ms for query ""
+2024-09-18 01:04:08.883 [info] Search by message took 15.140953999012709ms for query ""
+2024-09-18 01:04:08.897 [info] Search by message took 14.236998997628689ms for query ""
+2024-09-18 01:04:08.897 [info] Search by sha took 20.596487000584602ms for query ""
+2024-09-18 01:04:08.905 [info] Search by sha took 15.337870001792908ms for query ""
+2024-09-18 01:04:15.847 [info] Search by message took 14.465872000902891ms for query ""
+2024-09-18 01:04:15.861 [info] Search by message took 13.737996999174356ms for query ""
+2024-09-18 01:04:15.861 [info] Search by sha took 21.527666002511978ms for query ""
+2024-09-18 01:04:15.869 [info] Search by sha took 14.296318996697664ms for query ""
+2024-09-18 01:04:28.110 [info] Search by message took 19.583770003169775ms for query ""
+2024-09-18 01:04:28.122 [info] Search by message took 11.873101998120546ms for query ""
+2024-09-18 01:04:28.122 [info] Search by sha took 21.154755998402834ms for query ""
+2024-09-18 01:04:28.129 [info] Search by sha took 12.60343799740076ms for query ""
+2024-09-18 01:05:57.141 [info] Search by message took 14.785656999796629ms for query ""
+2024-09-18 01:05:57.158 [info] Search by message took 15.950381997972727ms for query ""
+2024-09-18 01:05:57.158 [info] Search by sha took 24.17349399998784ms for query ""
+2024-09-18 01:05:57.169 [info] Search by sha took 20.785894002765417ms for query ""
+2024-09-18 01:05:58.759 [info] Search by message took 13.62414800003171ms for query ""
+2024-09-18 01:05:58.773 [info] Search by message took 14.039863999933004ms for query ""
+2024-09-18 01:05:58.773 [info] Search by sha took 21.104805000126362ms for query ""
+2024-09-18 01:05:58.782 [info] Search by sha took 16.466926999390125ms for query ""
+2024-09-18 01:06:02.303 [info] Search by message took 20.700461000204086ms for query ""
+2024-09-18 01:06:02.317 [info] Search by message took 14.013666998595ms for query ""
+2024-09-18 01:06:02.317 [info] Search by sha took 23.20957900211215ms for query ""
+2024-09-18 01:06:02.324 [info] Search by sha took 12.1545519977808ms for query ""
+2024-09-18 01:06:10.908 [info] Search by message took 15.377227999269962ms for query ""
+2024-09-18 01:06:10.914 [info] Search by sha took 12.463417999446392ms for query ""
+2024-09-18 01:06:11.316 [info] Search by message took 15.060387998819351ms for query ""
+2024-09-18 01:06:11.320 [info] Search by sha took 10.964278999716043ms for query ""
+2024-09-18 01:06:11.733 [info] Search by message took 19.53745900094509ms for query ""
+2024-09-18 01:06:11.736 [info] Search by sha took 11.760113999247551ms for query ""
+2024-09-18 01:06:12.099 [info] Search by message took 14.762814000248909ms for query ""
+2024-09-18 01:06:12.102 [info] Search by sha took 9.357485000044107ms for query ""
+2024-09-18 01:06:12.575 [info] Search by message took 18.05289600044489ms for query ""
+2024-09-18 01:06:12.579 [info] Search by sha took 12.325162999331951ms for query ""
+2024-09-18 01:06:12.977 [info] Search by message took 18.918701000511646ms for query ""
+2024-09-18 01:06:12.981 [info] Search by sha took 11.955435998737812ms for query ""
+2024-09-18 01:06:13.555 [info] Search by message took 21.136184997856617ms for query ""
+2024-09-18 01:06:13.559 [info] Search by sha took 14.178770001977682ms for query ""
+2024-09-18 01:06:14.944 [info] Search by message took 17.09342599660158ms for query ""
+2024-09-18 01:06:14.948 [info] Search by sha took 13.701413996517658ms for query ""
+2024-09-18 01:06:15.615 [info] Search by message took 21.356945000588894ms for query ""
+2024-09-18 01:06:15.619 [info] Search by sha took 14.141621999442577ms for query ""
+2024-09-18 01:06:16.066 [info] Search by message took 12.206387002021074ms for query ""
+2024-09-18 01:06:16.069 [info] Search by sha took 8.21271799877286ms for query ""
+2024-09-18 01:06:16.452 [info] Search by message took 20.935323998332024ms for query ""
+2024-09-18 01:06:16.456 [info] Search by sha took 14.576500996947289ms for query ""
+2024-09-18 01:06:17.767 [info] Search by message took 14.606502998620272ms for query ""
+2024-09-18 01:06:17.770 [info] Search by sha took 9.938200999051332ms for query ""
+2024-09-18 01:06:18.688 [info] Search by message took 16.90405000001192ms for query ""
+2024-09-18 01:06:18.691 [info] Search by sha took 10.707830000668764ms for query ""
+2024-09-18 01:06:20.108 [info] Search by message took 20.530799999833107ms for query ""
+2024-09-18 01:06:20.112 [info] Search by sha took 13.020945999771357ms for query ""
+2024-09-18 01:06:48.046 [info] Search by message took 14.272397998720407ms for query ""
+2024-09-18 01:06:48.059 [info] Search by message took 12.947151999920607ms for query ""
+2024-09-18 01:06:48.059 [info] Search by sha took 20.394717000424862ms for query ""
+2024-09-18 01:06:48.061 [info] Search by sha took 9.722251996397972ms for query ""
+2024-09-18 01:06:49.156 [info] Search by message took 18.8829079978168ms for query ""
+2024-09-18 01:06:49.167 [info] Search by message took 10.916601002216339ms for query ""
+2024-09-18 01:06:49.167 [info] Search by sha took 19.312775999307632ms for query ""
+2024-09-18 01:06:49.173 [info] Search by sha took 11.44309899955988ms for query ""
+2024-09-18 01:07:17.678 [info] Search by message took 12.387203998863697ms for query ""
+2024-09-18 01:07:17.681 [info] Search by sha took 8.938655998557806ms for query ""
+2024-09-18 01:07:28.283 [info] Search by message took 17.314564000815153ms for query ""
+2024-09-18 01:07:28.287 [info] Search by sha took 12.956418000161648ms for query ""
+2024-09-18 01:08:27.156 [info] Search by message took 14.479005001485348ms for query ""
+2024-09-18 01:08:27.159 [info] Search by sha took 9.938209000974894ms for query ""
+2024-09-18 01:08:29.777 [info] Search by message took 23.553541000932455ms for query ""
+2024-09-18 01:08:29.783 [info] Search by sha took 16.991370998322964ms for query ""
+2024-09-18 01:08:30.645 [info] Search by message took 15.60284199938178ms for query ""
+2024-09-18 01:08:30.648 [info] Search by sha took 10.628031000494957ms for query ""
+2024-09-18 01:08:48.594 [info] Search by message took 15.138535000383854ms for query ""
+2024-09-18 01:08:48.598 [info] Search by sha took 10.876795001327991ms for query ""
+2024-09-18 01:09:20.117 [info] Search by message took 10.97307899966836ms for query ""
+2024-09-18 01:09:20.117 [info] Search by sha took 18.705180000513792ms for query ""
+2024-09-18 01:09:20.117 [info] Search by message took 27.43035300076008ms for query ""
+2024-09-18 01:09:20.123 [info] Search by sha took 11.808414999395609ms for query ""
+2024-09-18 01:09:24.111 [info] Search by message took 11.33202800154686ms for query ""
+2024-09-18 01:09:24.111 [info] Search by sha took 17.67882499843836ms for query ""
+2024-09-18 01:09:24.111 [info] Search by message took 23.563409000635147ms for query ""
+2024-09-18 01:09:24.123 [info] Search by sha took 18.786127001047134ms for query ""
+2024-09-18 01:09:49.023 [info] Search by message took 18.01195900142193ms for query ""
+2024-09-18 01:09:49.040 [info] Search by message took 16.69285999983549ms for query ""
+2024-09-18 01:09:49.040 [info] Search by sha took 26.194912999868393ms for query ""
+2024-09-18 01:09:49.053 [info] Search by sha took 21.271085001528263ms for query ""
+2024-09-18 01:09:50.483 [info] Search by message took 13.302636999636889ms for query ""
+2024-09-18 01:09:50.496 [info] Search by message took 13.341065999120474ms for query ""
+2024-09-18 01:09:50.496 [info] Search by sha took 20.28642500191927ms for query ""
+2024-09-18 01:09:50.499 [info] Search by sha took 9.88697899878025ms for query ""
+2024-09-18 01:09:52.441 [info] Search by message took 21.01017899811268ms for query ""
+2024-09-18 01:09:52.453 [info] Search by message took 11.10436600074172ms for query ""
+2024-09-18 01:09:52.453 [info] Search by sha took 21.671930998563766ms for query ""
+2024-09-18 01:09:52.460 [info] Search by sha took 12.800574000924826ms for query ""
+2024-09-18 01:09:53.673 [info] Search by message took 13.88331700116396ms for query ""
+2024-09-18 01:09:53.685 [info] Search by message took 11.213299002498388ms for query ""
+2024-09-18 01:09:53.685 [info] Search by sha took 17.834971997886896ms for query ""
+2024-09-18 01:09:53.691 [info] Search by sha took 11.831576000899076ms for query ""
+2024-09-18 01:09:54.632 [info] Search by message took 19.894494000822306ms for query ""
+2024-09-18 01:09:54.647 [info] Search by message took 14.732829999178648ms for query ""
+2024-09-18 01:09:54.647 [info] Search by sha took 23.459006998687983ms for query ""
+2024-09-18 01:09:54.653 [info] Search by sha took 13.916903000324965ms for query ""
+2024-09-18 01:09:56.110 [info] Search by message took 13.03014399856329ms for query ""
+2024-09-18 01:09:56.121 [info] Search by message took 11.128256000578403ms for query ""
+2024-09-18 01:09:56.121 [info] Search by sha took 17.975990001112223ms for query ""
+2024-09-18 01:09:56.128 [info] Search by sha took 12.54526000097394ms for query ""
+2024-09-18 01:09:56.973 [info] Search by message took 12.955633997917175ms for query ""
+2024-09-18 01:09:56.985 [info] Search by message took 11.553518999367952ms for query ""
+2024-09-18 01:09:56.985 [info] Search by sha took 17.723473001271486ms for query ""
+2024-09-18 01:09:56.992 [info] Search by sha took 12.34842500090599ms for query ""
+2024-09-18 01:09:58.411 [info] Search by message took 13.057305000722408ms for query ""
+2024-09-18 01:09:58.411 [info] Search by sha took 19.47341999784112ms for query ""
+2024-09-18 01:09:58.411 [info] Search by message took 29.873681001365185ms for query ""
+2024-09-18 01:09:58.418 [info] Search by sha took 12.741535000503063ms for query ""
+2024-09-18 01:09:59.650 [info] Search by message took 15.70337599888444ms for query ""
+2024-09-18 01:09:59.650 [info] Search by sha took 25.604093998670578ms for query ""
+2024-09-18 01:09:59.650 [info] Search by message took 36.880984999239445ms for query ""
+2024-09-18 01:09:59.663 [info] Search by sha took 20.2399680018425ms for query ""
+2024-09-18 01:10:34.656 [info] Search by message took 18.489609997719526ms for query ""
+2024-09-18 01:10:34.659 [info] Search by sha took 9.47137700021267ms for query ""
+2024-09-18 01:10:34.990 [info] Search by message took 14.377730999141932ms for query ""
+2024-09-18 01:10:34.992 [info] Search by sha took 9.209255002439022ms for query ""
+2024-09-18 01:10:35.340 [info] Search by message took 13.980870001018047ms for query ""
+2024-09-18 01:10:35.343 [info] Search by sha took 9.926945999264717ms for query ""
+2024-09-18 01:10:35.682 [info] Search by message took 14.039719000458717ms for query ""
+2024-09-18 01:10:35.685 [info] Search by sha took 10.031105000525713ms for query ""
+2024-09-18 01:10:36.070 [info] Search by message took 14.54662499949336ms for query ""
+2024-09-18 01:10:36.073 [info] Search by sha took 9.692641999572515ms for query ""
+2024-09-18 01:10:36.523 [info] Search by message took 14.578092999756336ms for query ""
+2024-09-18 01:10:36.526 [info] Search by sha took 10.035813998430967ms for query ""
+2024-09-18 01:10:36.910 [info] Search by message took 14.969628997147083ms for query ""
+2024-09-18 01:10:36.912 [info] Search by sha took 9.524578999727964ms for query ""
+2024-09-18 01:10:37.318 [info] Search by message took 14.249199997633696ms for query ""
+2024-09-18 01:10:37.321 [info] Search by sha took 9.324451997876167ms for query ""
+2024-09-18 01:10:38.973 [info] Search by message took 13.285383999347687ms for query ""
+2024-09-18 01:10:38.976 [info] Search by sha took 8.07294599711895ms for query ""
+2024-09-18 01:10:39.380 [info] Search by message took 19.374684002250433ms for query ""
+2024-09-18 01:10:39.384 [info] Search by sha took 12.418545998632908ms for query ""
+2024-09-18 01:10:39.748 [info] Search by message took 19.465302001684904ms for query ""
+2024-09-18 01:10:39.754 [info] Search by sha took 14.62737500295043ms for query ""
+2024-09-18 01:10:40.012 [info] Search by message took 20.17280700057745ms for query ""
+2024-09-18 01:10:40.017 [info] Search by sha took 13.984756000339985ms for query ""
+2024-09-18 01:10:41.470 [info] Search by message took 14.025204997509718ms for query ""
+2024-09-18 01:10:41.472 [info] Search by sha took 9.737968999892473ms for query ""
+2024-09-18 01:10:42.531 [info] Search by message took 12.147399999201298ms for query ""
+2024-09-18 01:10:42.536 [info] Search by sha took 11.097960002720356ms for query ""
+2024-09-18 01:10:43.423 [info] Search by message took 22.643529001623392ms for query ""
+2024-09-18 01:10:43.427 [info] Search by sha took 14.009616002440453ms for query ""
+2024-09-18 01:10:44.524 [info] Search by message took 19.045545000582933ms for query ""
+2024-09-18 01:10:44.530 [info] Search by sha took 14.707057002931833ms for query ""
+2024-09-18 01:10:46.909 [info] Search by message took 13.779904000461102ms for query ""
+2024-09-18 01:10:46.912 [info] Search by sha took 9.82362199947238ms for query ""
+2024-09-18 01:10:53.806 [info] Search by message took 20.441452000290155ms for query ""
+2024-09-18 01:10:53.810 [info] Search by sha took 13.414638999849558ms for query ""
+2024-09-18 01:11:02.740 [info] Creating merkle client.
+2024-09-18 01:11:02.740 [info] Done creating merkle client.
+2024-09-18 01:11:02.740 [info] Doing a startup handshake.
+2024-09-18 01:11:02.746 [info] Finished initializing merkle tree in 5.936730999499559 ms.
+2024-09-18 01:11:02.747 [info] Doing the initial handshake with hash: 0c92edeb4b0097d2869da901cf9754c65919783147c21247fcde9ed90042cf0d
+2024-09-18 01:11:02.748 [info] Handshake start
+2024-09-18 01:11:03.607 [info] Handshake timing: 860.2815940007567
+2024-09-18 01:11:03.608 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"5a47af60-7d53-42e3-aa76-11b227225121"}
+2024-09-18 01:11:03.608 [info] Starting fast remote sync.
+2024-09-18 01:11:03.609 [info] Total num embeddable files: 18
+2024-09-18 01:11:03.610 [info] Root hash: 0c92edeb4b0097d2869da901cf9754c65919783147c21247fcde9ed90042cf0d
+2024-09-18 01:11:03.610 [info] In the out of sync case.
+2024-09-18 01:11:03.610 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"0c92edeb4b0097d2869da901cf9754c65919783147c21247fcde9ed90042cf0d"}
+2024-09-18 01:11:03.611 [info] Waiting on semaphore to be released 1
+2024-09-18 01:11:03.811 [info] Waiting on semaphore to be released 1
+2024-09-18 01:11:04.012 [info] setting numJobsToGo to 6
+2024-09-18 01:11:04.012 [info] [startSync]: numJobs: 6
+2024-09-18 01:11:04.012 [info] Uploading 6 files.
+2024-09-18 01:11:26.381 [info] Search by message took 13.180968001484871ms for query ""
+2024-09-18 01:11:26.395 [info] Search by message took 13.555728003382683ms for query ""
+2024-09-18 01:11:26.395 [info] Search by sha took 20.378278996795416ms for query ""
+2024-09-18 01:11:26.402 [info] Search by sha took 14.140093002468348ms for query ""
+2024-09-18 01:12:09.351 [info] Finished indexing repository.
+2024-09-18 01:12:09.351 [info] Indexing job successfully done or aborted.
+2024-09-18 01:12:32.225 [info] Search by message took 15.627149999141693ms for query ""
+2024-09-18 01:12:32.227 [info] Search by sha took 9.346018001437187ms for query ""
+2024-09-18 01:12:36.352 [info] Search by message took 15.893360998481512ms for query ""
+2024-09-18 01:12:36.356 [info] Search by sha took 10.779814999550581ms for query ""
+2024-09-18 01:12:38.904 [info] Search by message took 14.153500001877546ms for query ""
+2024-09-18 01:12:38.907 [info] Search by sha took 9.835958998650312ms for query ""
+2024-09-18 01:12:40.028 [info] Search by message took 18.90106599777937ms for query ""
+2024-09-18 01:12:40.031 [info] Search by sha took 10.122595001012087ms for query ""
+2024-09-18 01:12:41.259 [info] Search by message took 18.528738997876644ms for query ""
+2024-09-18 01:12:41.263 [info] Search by sha took 12.484734002500772ms for query ""
+2024-09-18 01:13:08.706 [info] Search by message took 14.894765999168158ms for query ""
+2024-09-18 01:13:08.709 [info] Search by sha took 7.956302002072334ms for query ""
+2024-09-18 01:13:11.391 [info] Search by message took 14.14987599849701ms for query ""
+2024-09-18 01:13:11.405 [info] Search by message took 13.84808599948883ms for query ""
+2024-09-18 01:13:11.405 [info] Search by sha took 21.415649998933077ms for query ""
+2024-09-18 01:13:11.414 [info] Search by sha took 15.504289999604225ms for query ""
+2024-09-18 01:13:16.536 [info] Search by message took 12.267204999923706ms for query ""
+2024-09-18 01:13:16.536 [info] Search by sha took 18.723784998059273ms for query ""
+2024-09-18 01:13:16.536 [info] Search by message took 25.069942999631166ms for query ""
+2024-09-18 01:13:16.548 [info] Search by sha took 19.100419998168945ms for query ""
+2024-09-18 01:13:24.221 [info] Search by message took 14.667518999427557ms for query ""
+2024-09-18 01:13:24.235 [info] Search by message took 14.687405001372099ms for query ""
+2024-09-18 01:13:24.236 [info] Search by sha took 22.414209999144077ms for query ""
+2024-09-18 01:13:24.243 [info] Search by sha took 14.802678998559713ms for query ""
+2024-09-18 01:13:36.739 [info] Search by message took 14.873535998165607ms for query ""
+2024-09-18 01:13:36.752 [info] Search by message took 13.282081000506878ms for query ""
+2024-09-18 01:13:36.752 [info] Search by sha took 20.76070800051093ms for query ""
+2024-09-18 01:13:36.760 [info] Search by sha took 13.668320000171661ms for query ""
+2024-09-18 01:14:19.660 [info] Search by message took 15.474036000669003ms for query ""
+2024-09-18 01:14:19.674 [info] Search by message took 13.676649998873472ms for query ""
+2024-09-18 01:14:19.674 [info] Search by sha took 21.83762799948454ms for query ""
+2024-09-18 01:14:19.681 [info] Search by sha took 13.55265500023961ms for query ""
+2024-09-18 01:14:37.447 [info] Search by message took 21.138371001929045ms for query ""
+2024-09-18 01:14:37.452 [info] Search by sha took 15.306141000241041ms for query ""
+2024-09-18 01:14:48.745 [info] Search by message took 14.080102998763323ms for query ""
+2024-09-18 01:14:48.748 [info] Search by sha took 10.010423999279737ms for query ""
+2024-09-18 01:15:21.109 [info] Search by message took 15.687683999538422ms for query ""
+2024-09-18 01:15:21.124 [info] Search by message took 13.95049500092864ms for query ""
+2024-09-18 01:15:21.124 [info] Search by sha took 22.33729999884963ms for query ""
+2024-09-18 01:15:21.132 [info] Search by sha took 15.496294002979994ms for query ""
+2024-09-18 01:15:29.444 [info] Search by message took 14.250967998057604ms for query ""
+2024-09-18 01:15:29.444 [info] Search by sha took 21.436968002468348ms for query ""
+2024-09-18 01:15:29.444 [info] Search by message took 28.146685998886824ms for query ""
+2024-09-18 01:15:29.459 [info] Search by sha took 22.620877001434565ms for query ""
+2024-09-18 01:16:09.845 [info] Search by message took 21.018870998173952ms for query ""
+2024-09-18 01:16:09.848 [info] Search by sha took 12.439167998731136ms for query ""
+2024-09-18 01:16:23.912 [info] Search by message took 14.213213998824358ms for query ""
+2024-09-18 01:16:23.916 [info] Search by sha took 10.442840997129679ms for query ""
+2024-09-18 01:17:05.390 [info] Search by message took 14.156628999859095ms for query ""
+2024-09-18 01:17:05.390 [info] Search by sha took 21.707414001226425ms for query ""
+2024-09-18 01:17:05.390 [info] Search by message took 29.876726999878883ms for query ""
+2024-09-18 01:17:05.399 [info] Search by sha took 16.144127998501062ms for query ""
+2024-09-18 01:17:39.819 [info] Search by message took 12.342238001525402ms for query ""
+2024-09-18 01:17:39.819 [info] Search by sha took 19.189432002604008ms for query ""
+2024-09-18 01:17:39.819 [info] Search by message took 26.474247999489307ms for query ""
+2024-09-18 01:17:39.831 [info] Search by sha took 19.112449999898672ms for query ""
+2024-09-18 01:17:52.644 [info] Search by message took 14.052792001515627ms for query ""
+2024-09-18 01:17:52.655 [info] Search by message took 11.053174998611212ms for query ""
+2024-09-18 01:17:52.655 [info] Search by sha took 17.20278800278902ms for query ""
+2024-09-18 01:17:52.662 [info] Search by sha took 12.645864997059107ms for query ""
+2024-09-18 01:17:58.307 [info] Search by message took 13.258795000612736ms for query ""
+2024-09-18 01:17:58.322 [info] Search by message took 15.140172999352217ms for query ""
+2024-09-18 01:17:58.322 [info] Search by sha took 22.532890997827053ms for query ""
+2024-09-18 01:17:58.330 [info] Search by sha took 14.68741999939084ms for query ""
+2024-09-18 01:17:59.185 [info] Search by message took 14.442773997783661ms for query ""
+2024-09-18 01:17:59.198 [info] Search by message took 12.810063000768423ms for query ""
+2024-09-18 01:17:59.198 [info] Search by sha took 19.269071999937296ms for query ""
+2024-09-18 01:17:59.206 [info] Search by sha took 14.40862299874425ms for query ""
+2024-09-18 01:18:00.031 [info] Search by message took 14.317584000527859ms for query ""
+2024-09-18 01:18:00.044 [info] Search by message took 12.458612997084856ms for query ""
+2024-09-18 01:18:00.044 [info] Search by sha took 19.623011998832226ms for query ""
+2024-09-18 01:18:00.049 [info] Search by sha took 12.2956000007689ms for query ""
+2024-09-18 01:18:00.873 [info] Search by message took 16.246144000440836ms for query ""
+2024-09-18 01:18:00.884 [info] Search by message took 11.372738998383284ms for query ""
+2024-09-18 01:18:00.884 [info] Search by sha took 20.429315000772476ms for query ""
+2024-09-18 01:18:00.891 [info] Search by sha took 12.078150000423193ms for query ""
+2024-09-18 01:20:09.866 [info] Search by message took 18.864781998097897ms for query ""
+2024-09-18 01:20:09.878 [info] Search by message took 12.221271000802517ms for query ""
+2024-09-18 01:20:09.878 [info] Search by sha took 21.102264001965523ms for query ""
+2024-09-18 01:20:09.884 [info] Search by sha took 11.858819000422955ms for query ""
+2024-09-18 01:20:11.874 [info] Search by message took 16.479046002030373ms for query ""
+2024-09-18 01:20:11.885 [info] Search by message took 11.528862003237009ms for query ""
+2024-09-18 01:20:11.885 [info] Search by sha took 17.934638001024723ms for query ""
+2024-09-18 01:20:11.892 [info] Search by sha took 12.983242999762297ms for query ""
+2024-09-18 01:20:15.541 [info] Search by message took 14.719373002648354ms for query ""
+2024-09-18 01:20:15.552 [info] Search by message took 10.851893000304699ms for query ""
+2024-09-18 01:20:15.552 [info] Search by sha took 18.33252700045705ms for query ""
+2024-09-18 01:20:15.558 [info] Search by sha took 12.076207000762224ms for query ""
+2024-09-18 01:20:22.216 [info] Search by message took 12.866115000098944ms for query ""
+2024-09-18 01:20:22.227 [info] Search by message took 11.456480000168085ms for query ""
+2024-09-18 01:20:22.227 [info] Search by sha took 17.551686000078917ms for query ""
+2024-09-18 01:20:22.234 [info] Search by sha took 12.343481998890638ms for query ""
+2024-09-18 01:20:26.677 [info] Search by message took 15.362379003316164ms for query ""
+2024-09-18 01:20:26.688 [info] Search by message took 11.217617999762297ms for query ""
+2024-09-18 01:20:26.688 [info] Search by sha took 18.627946000546217ms for query ""
+2024-09-18 01:20:26.695 [info] Search by sha took 11.916912000626326ms for query ""
+2024-09-18 01:20:31.263 [info] Search by message took 12.622359000146389ms for query ""
+2024-09-18 01:20:31.275 [info] Search by message took 12.030774001032114ms for query ""
+2024-09-18 01:20:31.275 [info] Search by sha took 18.873999997973442ms for query ""
+2024-09-18 01:20:31.281 [info] Search by sha took 12.135927002876997ms for query ""
+2024-09-18 01:20:42.634 [info] Search by message took 13.839616000652313ms for query ""
+2024-09-18 01:20:42.645 [info] Search by message took 11.144546002149582ms for query ""
+2024-09-18 01:20:42.645 [info] Search by sha took 17.61063400283456ms for query ""
+2024-09-18 01:20:42.652 [info] Search by sha took 13.537055000662804ms for query ""
+2024-09-18 01:20:50.425 [info] Search by message took 21.719242997467518ms for query ""
+2024-09-18 01:20:50.441 [info] Search by message took 16.74685599654913ms for query ""
+2024-09-18 01:20:50.441 [info] Search by sha took 26.492316000163555ms for query ""
+2024-09-18 01:20:50.448 [info] Search by sha took 15.266171999275684ms for query ""
+2024-09-18 01:20:52.907 [info] Search by message took 18.965754002332687ms for query ""
+2024-09-18 01:20:52.912 [info] Search by sha took 14.115550998598337ms for query ""
+2024-09-18 01:21:02.740 [info] Creating merkle client.
+2024-09-18 01:21:02.741 [info] Done creating merkle client.
+2024-09-18 01:21:02.741 [info] Doing a startup handshake.
+2024-09-18 01:21:02.746 [info] Finished initializing merkle tree in 5.450893998146057 ms.
+2024-09-18 01:21:02.747 [info] Doing the initial handshake with hash: 001feb53c9ab5365255d9557d2ffc3ff1f52d7e0ccb68440517bed8848200bad
+2024-09-18 01:21:02.748 [info] Handshake start
+2024-09-18 01:21:04.186 [info] Handshake timing: 1438.6025169976056
+2024-09-18 01:21:04.186 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"5a47af60-7d53-42e3-aa76-11b227225121"}
+2024-09-18 01:21:04.186 [info] Starting fast remote sync.
+2024-09-18 01:21:04.187 [info] Total num embeddable files: 18
+2024-09-18 01:21:04.187 [info] Root hash: 001feb53c9ab5365255d9557d2ffc3ff1f52d7e0ccb68440517bed8848200bad
+2024-09-18 01:21:04.187 [info] In the out of sync case.
+2024-09-18 01:21:04.188 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"001feb53c9ab5365255d9557d2ffc3ff1f52d7e0ccb68440517bed8848200bad"}
+2024-09-18 01:21:04.189 [info] Waiting on semaphore to be released 1
+2024-09-18 01:21:04.389 [info] Waiting on semaphore to be released 1
+2024-09-18 01:21:04.590 [info] setting numJobsToGo to 4
+2024-09-18 01:21:04.590 [info] [startSync]: numJobs: 4
+2024-09-18 01:21:04.590 [info] Uploading 4 files.
+2024-09-18 01:21:07.871 [info] Search by message took 14.304568998515606ms for query ""
+2024-09-18 01:21:07.875 [info] Search by sha took 9.986788000911474ms for query ""
+2024-09-18 01:21:08.951 [info] Finished indexing repository.
+2024-09-18 01:21:08.951 [info] Indexing job successfully done or aborted.
+2024-09-18 01:21:23.247 [info] Search by message took 12.155793000012636ms for query ""
+2024-09-18 01:21:23.247 [info] Search by sha took 18.223643001168966ms for query ""
+2024-09-18 01:21:23.247 [info] Search by message took 24.90266900137067ms for query ""
+2024-09-18 01:21:23.260 [info] Search by sha took 19.037657000124454ms for query ""
+2024-09-18 01:21:46.818 [info] Search by message took 20.973136000335217ms for query ""
+2024-09-18 01:21:46.821 [info] Search by sha took 11.04450199753046ms for query ""
+2024-09-18 01:21:50.495 [info] Search by message took 14.12084000185132ms for query ""
+2024-09-18 01:21:50.498 [info] Search by sha took 10.349638998508453ms for query ""
+2024-09-18 01:21:53.780 [info] Search by message took 12.376979000866413ms for query ""
+2024-09-18 01:21:53.793 [info] Search by message took 12.465454999357462ms for query ""
+2024-09-18 01:21:53.793 [info] Search by sha took 18.692409999668598ms for query ""
+2024-09-18 01:21:53.800 [info] Search by sha took 13.26171999797225ms for query ""
+2024-09-18 01:24:45.797 [info] Search by message took 13.446865998208523ms for query ""
+2024-09-18 01:24:45.809 [info] Search by message took 11.962345000356436ms for query ""
+2024-09-18 01:24:45.809 [info] Search by sha took 18.393137998878956ms for query ""
+2024-09-18 01:24:45.816 [info] Search by sha took 13.410424999892712ms for query ""
+2024-09-18 01:25:24.083 [info] Search by message took 12.70363999903202ms for query ""
+2024-09-18 01:25:24.095 [info] Search by message took 11.260976001620293ms for query ""
+2024-09-18 01:25:24.095 [info] Search by sha took 17.411466002464294ms for query ""
+2024-09-18 01:25:24.101 [info] Search by sha took 12.338128000497818ms for query ""
+2024-09-18 01:25:34.833 [info] Search by message took 18.331075999885798ms for query ""
+2024-09-18 01:25:34.847 [info] Search by message took 13.952720999717712ms for query ""
+2024-09-18 01:25:34.847 [info] Search by sha took 24.103918999433517ms for query ""
+2024-09-18 01:25:34.855 [info] Search by sha took 13.921307999640703ms for query ""
+2024-09-18 01:25:42.238 [info] Search by message took 15.212364003062248ms for query ""
+2024-09-18 01:25:42.249 [info] Search by message took 11.131658002734184ms for query ""
+2024-09-18 01:25:42.250 [info] Search by sha took 17.705956000834703ms for query ""
+2024-09-18 01:25:42.256 [info] Search by sha took 12.511652000248432ms for query ""
+2024-09-18 01:25:56.204 [info] Search by message took 12.443563997745514ms for query ""
+2024-09-18 01:25:56.217 [info] Search by message took 12.269460000097752ms for query ""
+2024-09-18 01:25:56.217 [info] Search by sha took 18.618403997272253ms for query ""
+2024-09-18 01:25:56.223 [info] Search by sha took 13.28847099840641ms for query ""
+2024-09-18 01:26:19.714 [info] Search by message took 14.129638999700546ms for query ""
+2024-09-18 01:26:19.727 [info] Search by message took 12.759050000458956ms for query ""
+2024-09-18 01:26:19.727 [info] Search by sha took 20.04109000042081ms for query ""
+2024-09-18 01:26:19.734 [info] Search by sha took 13.094407003372908ms for query ""
+2024-09-18 01:27:36.482 [info] Search by message took 14.749729000031948ms for query ""
+2024-09-18 01:27:36.493 [info] Search by message took 11.03346499800682ms for query ""
+2024-09-18 01:27:36.493 [info] Search by sha took 17.443082999438047ms for query ""
+2024-09-18 01:27:36.500 [info] Search by sha took 12.376385997980833ms for query ""
+2024-09-18 01:31:02.740 [info] Creating merkle client.
+2024-09-18 01:31:02.740 [info] Done creating merkle client.
+2024-09-18 01:31:02.740 [info] Doing a startup handshake.
+2024-09-18 01:31:02.745 [info] Finished initializing merkle tree in 4.907925002276897 ms.
+2024-09-18 01:31:02.745 [info] Doing the initial handshake with hash: 003353fa648fb7ad40b0dd79e84ca26f00830df602bfd57a4e9c9c8aac8cc681
+2024-09-18 01:31:02.747 [info] Handshake start
+2024-09-18 01:31:04.131 [info] Handshake timing: 1385.133995000273
+2024-09-18 01:31:04.131 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"5a47af60-7d53-42e3-aa76-11b227225121"}
+2024-09-18 01:31:04.131 [info] Starting fast remote sync.
+2024-09-18 01:31:04.131 [info] Total num embeddable files: 18
+2024-09-18 01:31:04.131 [info] Root hash: 003353fa648fb7ad40b0dd79e84ca26f00830df602bfd57a4e9c9c8aac8cc681
+2024-09-18 01:31:04.131 [info] In the out of sync case.
+2024-09-18 01:31:04.132 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"003353fa648fb7ad40b0dd79e84ca26f00830df602bfd57a4e9c9c8aac8cc681"}
+2024-09-18 01:31:04.132 [info] Waiting on semaphore to be released 1
+2024-09-18 01:31:04.332 [info] Waiting on semaphore to be released 1
+2024-09-18 01:31:04.532 [info] setting numJobsToGo to 1
+2024-09-18 01:31:04.532 [info] [startSync]: numJobs: 1
+2024-09-18 01:31:04.532 [info] Uploading 1 files.
+2024-09-18 01:31:07.332 [info] Finished indexing repository.
+2024-09-18 01:31:07.332 [info] Indexing job successfully done or aborted.

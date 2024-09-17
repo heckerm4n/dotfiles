@@ -1,0 +1,19 @@
+2024-09-18 02:11:42.030 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-09-18 02:11:42.030 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-09-18 02:11:42.030 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-09-18 02:11:43.002 [error] [uncaught exception in main]: SQLITE_CANTOPEN: unable to open database file: Error: SQLITE_CANTOPEN: unable to open database file
+2024-09-18 02:11:43.204 [error] No commit search provider registered: Error: No commit search provider registered
+    at o.searchAllCommits (vscode-file://vscode-app/tmp/.mount_cursor1pZ2zS/resources/app/out/vs/workbench/workbench.desktop.main.js:21094:30255)
+    at vscode-file://vscode-app/tmp/.mount_cursor1pZ2zS/resources/app/out/vs/workbench/workbench.desktop.main.js:23017:78390
+2024-09-18 02:11:43.307 [info] Started local extension host with pid 917151.
+2024-09-18 02:11:43.763 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2024-09-18 02:11:43.772 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2024-09-18 02:11:44.259 [info] Started local extension host with pid 917197.
+2024-09-18 02:11:46.572 [info] [perf] Render performance baseline is 21ms
+2024-09-18 02:12:48.236 [error] [failed_precondition] Deprecated: ConnectError: [failed_precondition] Deprecated
+    at Object.V [as unary] (vscode-file://vscode-app/tmp/.mount_cursor1pZ2zS/resources/app/out/vs/workbench/workbench.desktop.main.js:22791:11460)
+    at async Object.repositoryStatus (vscode-file://vscode-app/tmp/.mount_cursor1pZ2zS/resources/app/out/vs/workbench/workbench.desktop.main.js:266:113456)
+    at async x._getUpdatedRepoStatus (vscode-file://vscode-app/tmp/.mount_cursor1pZ2zS/resources/app/out/vs/workbench/workbench.desktop.main.js:21553:8519)
+    at async x.getUpdatedRepoStatus (vscode-file://vscode-app/tmp/.mount_cursor1pZ2zS/resources/app/out/vs/workbench/workbench.desktop.main.js:21553:8421)
+    at async x.setRepositoryInfo (vscode-file://vscode-app/tmp/.mount_cursor1pZ2zS/resources/app/out/vs/workbench/workbench.desktop.main.js:21549:8713)
+    at async x.setRepoInfo (vscode-file://vscode-app/tmp/.mount_cursor1pZ2zS/resources/app/out/vs/workbench/workbench.desktop.main.js:21549:7159)

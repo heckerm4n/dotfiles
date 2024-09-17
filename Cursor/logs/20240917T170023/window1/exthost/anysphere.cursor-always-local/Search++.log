@@ -1,0 +1,16 @@
+2024-09-17 17:00:27.277 [error] Failed to initialize FileSyncClient Missing credentials, cannot create client
+2024-09-17 17:00:27.277 [error] Failed to initialize FileSyncer Missing credentials, cannot create client
+2024-09-17 17:08:27.213 [info] File sync client created: https://api4.cursor.sh
+2024-09-17 17:08:27.213 [info] File sync client created: https://api4.cursor.sh
+2024-09-17 17:08:28.042 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-17 17:13:29.018 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-17 17:18:28.896 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-17 17:23:28.902 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-17 17:28:29.021 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-17 17:33:28.872 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-17 17:38:29.099 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-17 17:43:28.880 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-17 17:48:28.980 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-17 17:53:29.000 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-17 17:58:29.040 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-17 18:03:28.954 [info] [ENABLED STATUS] Filesync is NOT enabled.

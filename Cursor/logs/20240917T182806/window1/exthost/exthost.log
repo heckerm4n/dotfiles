@@ -1,0 +1,143 @@
+2024-09-17 18:28:10.297 [info] Extension host with pid 4326 started
+2024-09-17 18:28:10.297 [info] Skipping acquiring lock for /home/us3r/.config/Cursor/User/workspaceStorage/0e15146e17d4cea55123e6c99e79d6b7.
+2024-09-17 18:28:10.352 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-17 18:28:10.365 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-17 18:28:10.414 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-17 18:28:10.439 [info] Extension host with pid 4354 started
+2024-09-17 18:28:10.439 [info] Skipping acquiring lock for /home/us3r/.config/Cursor/User/workspaceStorage/0e15146e17d4cea55123e6c99e79d6b7.
+2024-09-17 18:28:10.441 [info] Eager extensions activated
+2024-09-17 18:28:10.449 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-09-17 18:28:10.476 [info] Eager extensions activated
+2024-09-17 18:28:10.488 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2024-09-17 18:28:10.650 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2024-09-17 18:28:10.781 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2024-09-17 18:28:10.809 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2024-09-17 18:28:10.922 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-17 18:28:10.924 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-17 18:28:11.492 [error] Error: ENOENT: no such file or directory, open '/home/us3r/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2024-09-17 18:30:03.610 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-17 18:32:49.256 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-17 18:32:49.265 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-17 18:32:49.310 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-17 18:34:04.999 [info] Extension host terminating: renderer closed the MessagePort
+2024-09-17 18:34:05.000 [error] Error: ENOENT: no such file or directory, open '/home/us3r/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2024-09-17 18:34:05.000 [info] Extension host with pid 4354 exiting with code 0
+2024-09-17 18:34:05.000 [info] Extension host terminating: renderer closed the MessagePort
+2024-09-17 18:34:05.019 [info] Extension host with pid 4326 exiting with code 0
+2024-09-17 18:34:05.995 [info] Extension host with pid 16784 started
+2024-09-17 18:34:05.995 [info] Skipping acquiring lock for /home/us3r/.config/Cursor/User/workspaceStorage/f074e95af89c4eb9cd10eedde633b4cf.
+2024-09-17 18:34:06.047 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-17 18:34:06.051 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-17 18:34:06.071 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-17 18:34:06.121 [info] Eager extensions activated
+2024-09-17 18:34:06.142 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2024-09-17 18:34:06.216 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2024-09-17 18:34:06.230 [info] Extension host with pid 16805 started
+2024-09-17 18:34:06.230 [info] Skipping acquiring lock for /home/us3r/.config/Cursor/User/workspaceStorage/f074e95af89c4eb9cd10eedde633b4cf.
+2024-09-17 18:34:06.232 [info] Eager extensions activated
+2024-09-17 18:34:06.234 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-09-17 18:34:06.278 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2024-09-17 18:34:06.285 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2024-09-17 18:34:06.404 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-17 18:34:06.406 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-17 18:34:06.530 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-17 18:34:06.570 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-09-17 18:34:07.308 [error] Error: ENOENT: no such file or directory, open '/home/us3r/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2024-09-17 18:34:13.636 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-09-17 18:34:13.653 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-09-17 18:34:13.920 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-09-17 18:52:36.169 [warning] TextEditor is closed/disposed
+2024-09-17 18:52:36.169 [warning] TextEditor is closed/disposed
+2024-09-17 18:52:36.198 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-09-17 18:52:36.198 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model267)
+2024-09-17 19:11:10.856 [warning] TextEditor is closed/disposed
+2024-09-17 19:11:10.856 [warning] TextEditor is closed/disposed
+2024-09-17 19:11:10.902 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-09-17 19:11:10.903 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model110)
+2024-09-18 00:10:43.610 [info] Extension host terminating: renderer closed the MessagePort
+2024-09-18 00:10:43.613 [info] Extension host terminating: renderer closed the MessagePort
+2024-09-18 00:10:43.615 [error] TypeError: r.some is not a function
+	at d.saveToDisk (/home/us3r/.cursor/extensions/vscodevim.vim-1.28.1/out/extension.js:2:646151)
+	at t.deactivate (/home/us3r/.cursor/extensions/vscodevim.vim-1.28.1/out/extension.js:2:176792)
+	at p.eb (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:9898)
+	at /tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7930
+	at Array.map (<anonymous>)
+	at p.$ (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7917)
+	at p.terminate (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:8193)
+	at y.terminate (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:1511)
+	at o (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:10629)
+	at MessagePortMain.<anonymous> (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:6821)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-09-18 00:10:43.615 [info] Extension host with pid 16805 exiting with code 0
+2024-09-18 00:10:43.640 [error] Canceled: Canceled
+	at new I (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:35125)
+	at L.U (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:6033)
+	at q.<computed>.J.charCodeAt.D.CharCode.DollarSign.q.<computed> (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3108)
+	at m.g (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205870)
+	at m.executeCommand (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at N.registerCommand.description (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:204632)
+	at m.h (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:206409)
+	at m.g (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205401)
+	at m.executeCommand (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at Object.executeCommand (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:26184)
+	at c.O [as value] (/tmp/.mount_cursory3W83e/resources/app/extensions/git/dist/main.js:2:951419)
+	at r.B (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:739)
+	at r.C (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:809)
+	at r.fire (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:1025)
+	at Object.f [as dispose] (/tmp/.mount_cursory3W83e/resources/app/extensions/git/dist/main.js:2:970591)
+	at /tmp/.mount_cursory3W83e/resources/app/extensions/git/dist/main.js:2:976629
+	at Array.forEach (<anonymous>)
+	at y.dispose (/tmp/.mount_cursory3W83e/resources/app/extensions/git/dist/main.js:2:976615)
+	at l.<anonymous> (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4069)
+	at l.dispose (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4168)
+	at l.<anonymous> (/tmp/.mount_cursory3W83e/resources/app/extensions/git/dist/main.js:2:953676)
+	at l.dispose (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4168)
+	at y (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:744)
+	at p.eb (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:10094)
+	at /tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7930
+	at Array.map (<anonymous>)
+	at p.$ (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7917)
+	at p.terminate (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:8193)
+	at y.terminate (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:1511)
+	at o (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:10629)
+	at MessagePortMain.<anonymous> (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:6821)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-09-18 00:10:43.641 [error] Canceled: Canceled
+	at new I (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:35125)
+	at L.U (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:6033)
+	at q.<computed>.J.charCodeAt.D.CharCode.DollarSign.q.<computed> (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3108)
+	at m.g (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205870)
+	at m.executeCommand (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at N.registerCommand.description (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:204632)
+	at m.h (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:206409)
+	at m.g (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205401)
+	at m.executeCommand (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at Object.executeCommand (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:26184)
+	at set hasGitHubRepositories (/tmp/.mount_cursory3W83e/resources/app/extensions/github/dist/extension.js:2:322968)
+	at /tmp/.mount_cursory3W83e/resources/app/extensions/github/dist/extension.js:2:323927
+	at c.value (/tmp/.mount_cursory3W83e/resources/app/extensions/git/dist/main.js:2:1059794)
+	at r.B (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:739)
+	at r.C (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:809)
+	at r.fire (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:1025)
+	at Object.f [as dispose] (/tmp/.mount_cursory3W83e/resources/app/extensions/git/dist/main.js:2:970591)
+	at /tmp/.mount_cursory3W83e/resources/app/extensions/git/dist/main.js:2:976629
+	at Array.forEach (<anonymous>)
+	at y.dispose (/tmp/.mount_cursory3W83e/resources/app/extensions/git/dist/main.js:2:976615)
+	at l.<anonymous> (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4069)
+	at l.dispose (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4168)
+	at l.<anonymous> (/tmp/.mount_cursory3W83e/resources/app/extensions/git/dist/main.js:2:953676)
+	at l.dispose (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4168)
+	at y (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:744)
+	at p.eb (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:10094)
+	at /tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7930
+	at Array.map (<anonymous>)
+	at p.$ (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7917)
+	at p.terminate (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:8193)
+	at y.terminate (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:1511)
+	at o (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:10629)
+	at MessagePortMain.<anonymous> (/tmp/.mount_cursory3W83e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:6821)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-09-18 00:10:43.641 [info] Extension host with pid 16784 exiting with code 0

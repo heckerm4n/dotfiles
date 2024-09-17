@@ -1,0 +1,22 @@
+2024-09-18 02:11:45.480 [info] Using repo backend url https://repo42.cursor.sh
+2024-09-18 02:11:45.480 [info] Using repo backend url https://repo42.cursor.sh
+2024-09-18 02:11:47.837 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2024-09-18 02:11:48.339 [info] Using repo backend url https://repo42.cursor.sh
+2024-09-18 02:11:48.339 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2024-09-18 02:11:57.811 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/CourseTable.java
+2024-09-18 02:12:00.214 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/CourseCatalog.java
+2024-09-18 02:12:11.156 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/Professor.java
+2024-09-18 02:12:14.381 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/CourseCatalog.java
+2024-09-18 02:12:14.381 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/CourseCatalog.java
+2024-09-18 02:12:18.887 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/Professor.java
+2024-09-18 02:12:18.887 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/Professor.java
+2024-09-18 02:12:30.093 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/Course.java
+2024-09-18 02:12:36.112 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/Admin.java
+2024-09-18 02:12:39.343 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/Student.java
+2024-09-18 02:12:46.576 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/User.java
+2024-09-18 02:12:53.168 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/login_manager.java
+2024-09-18 02:12:55.244 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/User.java
+2024-09-18 02:12:55.244 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/User.java
+2024-09-18 02:13:01.966 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/login_manager.java
+2024-09-18 02:13:01.966 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/login_manager.java
+2024-09-18 02:13:07.841 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/us3r/sem3/hw/assignment1/Credentials.java
