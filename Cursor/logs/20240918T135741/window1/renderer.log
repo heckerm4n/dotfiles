@@ -1513,3 +1513,5 @@
 2024-09-18 15:22:23.396 [error] [Extension Host] (node:1340) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
 2024-09-18 15:22:26.754 [error] [Extension Host] (node:1340) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
 2024-09-18 15:22:26.754 [error] [Extension Host] (node:1340) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+2024-09-18 15:23:23.052 [error] [Extension Host] (node:1340) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
+2024-09-18 15:23:26.008 [error] [Extension Host] (node:1340) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [TLSSocket]. Use emitter.setMaxListeners() to increase limit
