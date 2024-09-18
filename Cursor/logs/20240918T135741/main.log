@@ -1,0 +1,10 @@
+2024-09-18 13:57:41.605 [info] update#setState disabled
+2024-09-18 13:57:41.613 [info] update#ctor - updates are disabled as there is no update URL
+2024-09-18 13:57:41.643 [error] [storage state.vscdb] error checking size of src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.workspaceUser: Error: Unexpected number of rows - 0
+2024-09-18 13:57:41.645 [error] [uncaught exception in main]: Error: SQLITE_CANTOPEN: unable to open database file
+2024-09-18 13:57:41.645 [error] Error: SQLITE_CANTOPEN: unable to open database file
+2024-09-18 13:57:42.973 [error] vscode-file: Refused to load resource /tmp/.mount_cursor1pZ2zS/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/tmp/.mount_cursor1pZ2zS/resources/app/extensions/theme-seti/icons/seti.woff)
+2024-09-18 15:05:25.135 [error] [uncaught exception in main]: Error: net::ERR_INTERNET_DISCONNECTED
+2024-09-18 15:05:25.135 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:109791)
+    at SimpleURLLoaderWrapper.emit (node:events:514:28)

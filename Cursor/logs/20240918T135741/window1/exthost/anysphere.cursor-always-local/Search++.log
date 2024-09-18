@@ -1,0 +1,18 @@
+2024-09-18 13:57:44.793 [info] File sync client created: https://api4.cursor.sh
+2024-09-18 13:57:44.793 [info] File sync client created: https://api4.cursor.sh
+2024-09-18 13:57:45.608 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-18 14:02:46.483 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-18 14:07:46.439 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-18 14:12:46.686 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-18 14:17:46.435 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-18 14:22:46.552 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-18 14:27:46.587 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-18 14:32:46.441 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-18 14:37:46.453 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-18 14:42:46.644 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-18 14:47:46.464 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-18 14:52:46.452 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-18 15:05:24.684 [error] Failed to check if file sync is enabled for user {"name":"ConnectError","rawMessage":"getaddrinfo EAI_AGAIN api4.cursor.sh","code":14,"metadata":{},"details":[],"cause":{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"api4.cursor.sh"}}
+2024-09-18 15:10:25.624 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-18 15:15:25.504 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-09-18 15:20:25.583 [info] [ENABLED STATUS] Filesync is NOT enabled.
