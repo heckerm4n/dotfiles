@@ -7054,3 +7054,73 @@ Assistant:
 2024-09-18 15:20:37.402 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
 2024-09-18 15:21:37.325 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
 2024-09-18 15:21:39.251 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:11:14.276 [error] Error fetching public IP: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2024-09-18 16:11:14.276 [error] Error fetching public IP: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2024-09-18 16:12:24.694 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:12:39.588 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:12:40.113 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:13:17.554 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:14:17.143 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:14:23.622 [error] Error fetching public IP: [unavailable] getaddrinfo EAI_AGAIN api2.cursor.sh
+2024-09-18 16:32:24.709 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:32:26.308 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:33:24.124 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:33:43.909 [info] CURSOR LOG: restFunc initiated 54811825-f9fb-495c-bdd3-9bbeb5b88e96
+2024-09-18 16:33:45.263 [info] CURSOR LOG: Done streaming cpp with id 54811825-f9fb-495c-bdd3-9bbeb5b88e96
+2024-09-18 16:33:45.263 [info] CPP RT LOG: Time taken for streaming cpp 1353.6875 with request 54811825-f9fb-495c-bdd3-9bbeb5b88e96
+2024-09-18 16:33:45.263 [info] CPP Request Log with id 54811825-f9fb-495c-bdd3-9bbeb5b88e96
+2024-09-18 16:33:45.263 [info] =======>Model input 
+2024-09-18 16:33:45.263 [info] =======>Model output 
+            System.out.println("1. Manage Course Catalog");
+            System.out.println("2. Manage Student Records");
+            System.out.println("3. Assign Professors to Courses");
+            System.out.println("4. Handle Complaints");
+2024-09-18 16:33:45.263 [info] =======>Debug stream time 135.95184799842536
+2024-09-18 16:33:45.263 [info] =======>Debug ttft time 116.86095600016415
+2024-09-18 16:33:45.264 [info] Average of latest 20 ttft time 102.37414704961702
+2024-09-18 16:33:45.264 [info] Average of latest 20 stream time 345.7963139997795
+2024-09-18 16:33:45.264 [info] Average of latest 20 total time NaN
+2024-09-18 16:33:45.264 [info] Average of latest 20 client time 732.1281494140625
+2024-09-18 16:33:45.264 [info] Average of latest 20 discrepencies NaN
+2024-09-18 16:33:45.264 [info] CPP RT LOG: All stats {"streamingtime":1353.6875,"actualTtftFromStart":1405.528076171875,"timeTillServerRequest":52.053955078125,"requestToTtft":1353.47412109375,"totalTime":1405.7275390625}
+2024-09-18 16:33:45.264 [info] CURSOR LOG: restFunc done 54811825-f9fb-495c-bdd3-9bbeb5b88e96
+2024-09-18 16:34:24.177 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:35:24.114 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:35:26.644 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:36:25.184 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:36:25.530 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:37:25.230 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:38:24.988 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:38:26.265 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:39:23.919 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:40:24.545 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:41:24.188 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:41:24.758 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:42:24.709 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:42:26.304 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:43:25.672 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:43:26.825 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:44:22.463 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:44:23.716 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:44:32.880 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:45:24.907 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:45:25.209 [error] Error fetching public IP: [invalid_argument] parse binary: premature EOF
+2024-09-18 16:46:37.367 [info] CURSOR LOG: restFunc initiated 81b75e79-0aa9-4034-90c6-e9088fd11bc8
+2024-09-18 16:46:38.769 [info] CURSOR LOG: Done streaming cpp with id 81b75e79-0aa9-4034-90c6-e9088fd11bc8
+2024-09-18 16:46:38.769 [info] CPP RT LOG: Time taken for streaming cpp 1400.93359375 with request 81b75e79-0aa9-4034-90c6-e9088fd11bc8
+2024-09-18 16:46:38.769 [info] CPP Request Log with id 81b75e79-0aa9-4034-90c6-e9088fd11bc8
+2024-09-18 16:46:38.769 [info] =======>Model input 
+2024-09-18 16:46:38.769 [info] =======>Model output 
+        if (foundCourses.isEmpty()) {
+            System.out.println("No courses found matching '" + searchTerm.toUpperCase() + "'.");
+        } else {
+            System.out.println("Found " + foundCourses.size() + " course(s):");
+2024-09-18 16:46:38.769 [info] =======>Debug stream time 290.9358899984509
+2024-09-18 16:46:38.769 [info] =======>Debug ttft time 178.44390499964356
+2024-09-18 16:46:38.769 [info] Average of latest 20 ttft time 106.86207954967395
+2024-09-18 16:46:38.769 [info] Average of latest 20 stream time 340.2090627497062
+2024-09-18 16:46:38.769 [info] Average of latest 20 total time NaN
+2024-09-18 16:46:38.769 [info] Average of latest 20 client time 756.355029296875
+2024-09-18 16:46:38.769 [info] Average of latest 20 discrepencies NaN
+2024-09-18 16:46:38.769 [info] CPP RT LOG: All stats {"streamingtime":1400.93359375,"actualTtftFromStart":1420.4130859375,"timeTillServerRequest":52.70849609375,"requestToTtft":1367.70458984375,"totalTime":1453.62353515625}
+2024-09-18 16:46:38.769 [info] CURSOR LOG: restFunc done 81b75e79-0aa9-4034-90c6-e9088fd11bc8

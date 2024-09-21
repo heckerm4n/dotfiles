@@ -19,3 +19,90 @@
 2024-09-18 14:13:35.326 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
 2024-09-18 14:13:35.340 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
 2024-09-18 14:13:35.684 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-09-18 16:54:04.280 [info] Extension host terminating: renderer closed the MessagePort
+2024-09-18 16:54:04.282 [info] Extension host terminating: renderer closed the MessagePort
+2024-09-18 16:54:04.285 [error] TypeError: r.some is not a function
+	at d.saveToDisk (/home/us3r/.cursor/extensions/vscodevim.vim-1.28.1/out/extension.js:2:646151)
+	at t.deactivate (/home/us3r/.cursor/extensions/vscodevim.vim-1.28.1/out/extension.js:2:176792)
+	at p.eb (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:9898)
+	at /tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7930
+	at Array.map (<anonymous>)
+	at p.$ (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7917)
+	at p.terminate (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:8193)
+	at y.terminate (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:1511)
+	at o (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:10629)
+	at MessagePortMain.<anonymous> (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:6821)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-09-18 16:54:04.285 [info] Extension host with pid 1386 exiting with code 0
+2024-09-18 16:54:04.304 [error] Canceled: Canceled
+	at new I (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:35125)
+	at L.U (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:6033)
+	at q.<computed>.J.charCodeAt.D.CharCode.DollarSign.q.<computed> (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3108)
+	at m.g (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205870)
+	at m.executeCommand (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at N.registerCommand.description (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:204632)
+	at m.h (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:206409)
+	at m.g (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205401)
+	at m.executeCommand (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at Object.executeCommand (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:26184)
+	at c.O [as value] (/tmp/.mount_cursoraIalsL/resources/app/extensions/git/dist/main.js:2:951419)
+	at r.B (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:739)
+	at r.C (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:809)
+	at r.fire (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:1025)
+	at Object.f [as dispose] (/tmp/.mount_cursoraIalsL/resources/app/extensions/git/dist/main.js:2:970591)
+	at /tmp/.mount_cursoraIalsL/resources/app/extensions/git/dist/main.js:2:976629
+	at Array.forEach (<anonymous>)
+	at y.dispose (/tmp/.mount_cursoraIalsL/resources/app/extensions/git/dist/main.js:2:976615)
+	at l.<anonymous> (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4069)
+	at l.dispose (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4168)
+	at l.<anonymous> (/tmp/.mount_cursoraIalsL/resources/app/extensions/git/dist/main.js:2:953676)
+	at l.dispose (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4168)
+	at y (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:744)
+	at p.eb (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:10094)
+	at /tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7930
+	at Array.map (<anonymous>)
+	at p.$ (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7917)
+	at p.terminate (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:8193)
+	at y.terminate (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:1511)
+	at o (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:10629)
+	at MessagePortMain.<anonymous> (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:6821)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-09-18 16:54:04.305 [error] Canceled: Canceled
+	at new I (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:35125)
+	at L.U (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:6033)
+	at q.<computed>.J.charCodeAt.D.CharCode.DollarSign.q.<computed> (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3108)
+	at m.g (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205870)
+	at m.executeCommand (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at N.registerCommand.description (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:204632)
+	at m.h (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:206409)
+	at m.g (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205401)
+	at m.executeCommand (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:205308)
+	at Object.executeCommand (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:26184)
+	at set hasGitHubRepositories (/tmp/.mount_cursoraIalsL/resources/app/extensions/github/dist/extension.js:2:322968)
+	at /tmp/.mount_cursoraIalsL/resources/app/extensions/github/dist/extension.js:2:323927
+	at c.value (/tmp/.mount_cursoraIalsL/resources/app/extensions/git/dist/main.js:2:1059794)
+	at r.B (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:739)
+	at r.C (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:809)
+	at r.fire (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:84:1025)
+	at Object.f [as dispose] (/tmp/.mount_cursoraIalsL/resources/app/extensions/git/dist/main.js:2:970591)
+	at /tmp/.mount_cursoraIalsL/resources/app/extensions/git/dist/main.js:2:976629
+	at Array.forEach (<anonymous>)
+	at y.dispose (/tmp/.mount_cursoraIalsL/resources/app/extensions/git/dist/main.js:2:976615)
+	at l.<anonymous> (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4069)
+	at l.dispose (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4168)
+	at l.<anonymous> (/tmp/.mount_cursoraIalsL/resources/app/extensions/git/dist/main.js:2:953676)
+	at l.dispose (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:4168)
+	at y (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:744)
+	at p.eb (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:10094)
+	at /tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7930
+	at Array.map (<anonymous>)
+	at p.$ (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:7917)
+	at p.terminate (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:8193)
+	at y.terminate (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:1511)
+	at o (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:10629)
+	at MessagePortMain.<anonymous> (/tmp/.mount_cursoraIalsL/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:186:6821)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-09-18 16:54:04.305 [info] Extension host with pid 1340 exiting with code 0

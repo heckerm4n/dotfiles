@@ -8,3 +8,5 @@
 2024-09-18 15:05:25.135 [error] Error: net::ERR_INTERNET_DISCONNECTED
     at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:109791)
     at SimpleURLLoaderWrapper.emit (node:events:514:28)
+2024-09-18 16:54:04.286 [info] Extension host with pid 1386 exited with code: 0, signal: unknown.
+2024-09-18 16:54:04.311 [info] Extension host with pid 1340 exited with code: 0, signal: unknown.
