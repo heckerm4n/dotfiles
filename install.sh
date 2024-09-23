@@ -57,7 +57,7 @@ if [[ "$dwm_response" =~ ^[Nn]$ ]]; then
     echo -e "${YELLOW}=> Installing tools${NC}"
     paru -S --noconfirm perl-image-exiftool
 else
-    echo -e "${RED}The tools will not bw installed.${NC}"
+    echo -e "${RED}The tools will not be installed.${NC}"
 fi
 # Final installation complete message
 echo -e "\n${GREEN}>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SYSTEM SETUP COMPLETE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<${NC}"
