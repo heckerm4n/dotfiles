@@ -16,8 +16,9 @@ echo -e "${YELLOW}=> INSTALLING NVIDIA DRIVERS${NC}"
 sudo pacman --noconfirm -S nvidia nvidia-settings nvidia-utils
 
 echo -e "${YELLOW}=> INSTALLING IMPORTANT PROGRAMS${NC}"
-sudo pacman --noconfirm -S git vim tmux fish neovim kitty neofetch bashtop exa bat fd fzf lxappearance nitrogen dunst firefox firefox-developer-edition discord xcolor thunar gvfs rofi ly keyd starship xclip tldr qutebrowser make clang gcc unzip zip pdfarranger xournalpp yt-dlp nodejs npm dmenu perl-image-exiftool
+sudo pacman --noconfirm -S git vim tmux fish neovim kitty neofetch bashtop exa bat fd fzf lxappearance nitrogen dunst firefox firefox-developer-edition discord xcolor thunar gvfs rofi ly keyd starship xclip tldr qutebrowser make clang gcc unzip zip pdfarranger xournalpp yt-dlp nodejs npm dmenu
 
+echo -e "${YELLOW}=> INSTALLING IMPORTANT PROGRAMS${NC}"
 # Check if paru is installed, if not install it
 if ! command -v paru &> /dev/null; then
     echo -e "${RED}paru is not installed. Installing paru...${NC}"
@@ -48,5 +49,15 @@ paru -S --noconfirm picom-ftlabs-git ttf-jetbrains-mono-nerd noto-fonts-emoji sp
 echo -e "${YELLOW}=> INSTALLING GTK THEMES, ICONS, AND MOUSE CURSORS${NC}"
 paru -S --noconfirm adwaita-dark arc-gtk-theme papirus-icon-theme breeze-gtk breeze-icons breeze-cursor-theme qt5ct
 
+# Prompt user if want to install tools for ctf
+read -p "Do you want to install ctf tools? (Y/n): " dwm_response
+dwm_response=${dwm_response:-Y}  # Default to "N" if the user presses enter
+
+if [[ "$dwm_response" =~ ^[Nn]$ ]]; then
+    echo -e "${YELLOW}=> Installing tools${NC}"
+    paru -S --noconfirm perl-image-exiftool
+else
+    echo -e "${RED}The tools will not bw installed.${NC}"
+fi
 # Final installation complete message
 echo -e "\n${GREEN}>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SYSTEM SETUP COMPLETE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<${NC}"
