@@ -78,7 +78,7 @@ static const char *voldowncmd[] = {"pactl", "set-sink-volume", "0", "-5%", NULL}
 static const char *brupcmd[] = {"brightnessctl", "set", "+10%", NULL};
 static const char *brdowncmd[] = {"brightnessctl", "set", "10%-", NULL};
 static const char *screen_lockcmd[] = {"betterlockscreen", "-l", NULL};
-/* static const char *screenshotcmd[] = {"scrot", "-e", "xclip -selection clipboard -t image/png -i $f", NULL}; */
+/*static const char *screenshotcmd[] = {"scrot", "-e", "xclip -selection clipboard -t image/png -i $f", NULL};*/
 static const char *screenshotcmd[] = {"flameshot", "gui", NULL};
 
 static const Key keys[] = {
