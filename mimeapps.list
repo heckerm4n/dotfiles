@@ -1,8 +1,8 @@
 [Default Applications]
 image/jpeg=firefox.desktop
-application/pdf=firefox.desktop
+application/pdf=firefox-developer-edition.desktop
 
 [Added Associations]
 image/jpeg=kitty.desktop;firefox.desktop;
-application/pdf=firefox.desktop;
+application/pdf=vim.desktop;mupdf.desktop;firefox.desktop;firefox-developer-edition.desktop;
 image/png=firefox.desktop;
