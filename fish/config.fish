@@ -12,4 +12,5 @@ if status is-interactive
     alias start="systemctl start"
     alias disable="systemctl disable"
     # alias uninstall="sudo pacman -R"
+    alias faf="fastfetch --logo-width 45 --logo-height 26 --logo cypher.png"
 end
