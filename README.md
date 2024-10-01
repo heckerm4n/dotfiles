@@ -1,3 +1,9 @@
+# My DWM Configuration
+
+## Looks
+
+![wallpaper](pics/2024-10-01_16-29.png)
+
 ## Display Manager Configuration
 File Location: `/usr/share/xsessions/dwm.desktop`
 
