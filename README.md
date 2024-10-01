@@ -2,7 +2,7 @@
 
 ## Looks
 
-![wallpaper](pics/2024-10-01_16-29.png)
+![wallpaper](pics/2024-10-01_20-01.png)
 
 ## Display Manager Configuration
 File Location: `/usr/share/xsessions/dwm.desktop`
