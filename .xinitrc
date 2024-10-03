@@ -35,7 +35,7 @@ wlan() {
 
 ## Time Info
 clock() {
-    printf "^b$green2^^c$black^[ $(date '+%a, %I:%M %p')]^d^"
+    printf "^b$green2^^c$black^[ $(date '+%a, %b %d, %y (%I:%M %p)')]^d^"
 }
 
 ## Bluetooth Info
